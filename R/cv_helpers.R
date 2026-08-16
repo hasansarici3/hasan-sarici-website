@@ -145,6 +145,7 @@ render_cv_publications <- function(x, category, lang = "tr") {
     volume <- cv_clean(d$volume_issue[i])
     pages <- cv_clean(d$pages[i])
     doi <- cv_clean(d$doi[i])
+    status <- cv_clean(d$status[i])
 
     cat('<div class="cv-publication-item">\n')
 
@@ -160,8 +161,21 @@ render_cv_publications <- function(x, category, lang = "tr") {
     }
 
     if (category == "under_review") {
-      prefix <- if (lang == "tr") "Gönderildiği dergi" else "Submitted to"
-      cat('<p class="cv-muted"><strong>', prefix, ":</strong> ", cv_escape(venue), "</p>\n", sep = "")
+      if (status == "peer_review") {
+        status_label <- if (lang == "tr") "Hakem değerlendirmesinde" else "In peer review"
+        cat('<p class="cv-muted"><strong>', status_label, ':</strong> ', cv_escape(venue), "</p>\n", sep = "")
+      } else if (status == "revising") {
+        status_label <- if (lang == "tr") "Durum" else "Status"
+        status_value <- if (lang == "tr") "Revizyon / yeniden gönderim hazırlığı" else "Revision / preparing resubmission"
+        cat('<p class="cv-muted"><strong>', status_label, ':</strong> ', status_value, "</p>\n", sep = "")
+      } else {
+        status_label <- if (lang == "tr") "Gönderildi / editoryal süreçte" else "Submitted / in editorial process"
+        if (nzchar(venue)) {
+          cat('<p class="cv-muted"><strong>', status_label, ':</strong> ', cv_escape(venue), "</p>\n", sep = "")
+        } else {
+          cat('<p class="cv-muted"><strong>', status_label, "</strong></p>\n", sep = "")
+        }
+      }
     } else {
 
       meta <- venue
