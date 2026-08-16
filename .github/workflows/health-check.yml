@@ -1,0 +1,44 @@
+name: Live Site Health Check
+
+on:
+  schedule:
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Check core URLs
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          check() {
+            url="$1"
+            code="$(curl --fail --silent --show-error --location --retry 3 --retry-delay 2 \
+              --output /dev/null --write-out '%{http_code}' "$url")"
+            test "$code" = "200"
+            echo "OK $code $url"
+          }
+
+          check "https://hasansarici.com/"
+          check "https://hasansarici.com/en/"
+          check "https://hasansarici.com/sitemap.xml"
+          check "https://hasansarici.com/assets/documents/Hasan_Sarici_Akademik_CV_TR.pdf"
+          check "https://hasansarici.com/assets/documents/Hasan_Sarici_Academic_CV_EN.pdf"
+
+          final="$(curl --fail --silent --show-error --location --retry 3 \
+            --output /dev/null --write-out '%{url_effective}' https://www.hasansarici.com/)"
+
+          case "$final" in
+            https://hasansarici.com/|https://hasansarici.com) ;;
+            *) echo "Unexpected www redirect: $final"; exit 1 ;;
+          esac
+
+          echo "OK www redirects to apex domain"
