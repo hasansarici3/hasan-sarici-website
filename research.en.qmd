@@ -2,7 +2,7 @@
 page-layout: custom
 toc: false
 pagetitle: "Research | Dr. Hasan Sarıcı"
-description-meta: "Research programme, research areas, and scientific approach of Dr. Hasan Sarıcı."
+description-meta: "Research programme, current research questions, methodological approach, and international research networks of Dr. Hasan Sarıcı."
 ---
 
 ::: {.research-page}
@@ -14,14 +14,14 @@ description-meta: "Research programme, research areas, and scientific approach o
 RESEARCH
 :::
 
-# I study psychological processes within environmental, social, educational, and performance contexts.
+# My central question is how context and psychological processes jointly shape well-being and behaviour.
 
 ::: {.research-lead}
-My research programme focuses on understanding how individual psychological processes interact with the contexts in which they occur.
+My research programme examines how psychological processes emerge across environmental threats, social and educational conditions, digital environments, and performance settings, and through which mechanisms they relate to important outcomes.
 :::
 
 ::: {.research-intro}
-My work spans climate change and mental health, pro-environmental behaviour, psychological counselling and education, digital behaviour, emotion regulation, and sport psychology. Rather than treating these as isolated topics, I approach them as interconnected components of a broader programme examining how psychological processes are shaped across different life contexts.
+This framework brings together topics ranging from climate anxiety and poverty-sensitive school counselling to cyberbullying and athlete psychology. Across these areas, I focus particularly on psychological mechanisms, contextual variation, cross-cultural comparison, and processes that may be amenable to intervention.
 :::
 
 :::
@@ -45,15 +45,15 @@ RESEARCH PROGRAMME
 
 ### Climate & Environmental Psychology
 
-This line of research examines the psychological consequences of climate change, climate anxiety, mental-health responses to environmental threats, and psychological determinants of pro-environmental behaviour.
+I examine the psychological consequences of climate change and the formation of environmental behaviour by considering emotional, cognitive, social-norm, and contextual processes together.
 
 **Key themes**
 
 - Climate anxiety and climate emotions
 - Climate change and mental health
-- Pro-environmental behaviour
+- Pro-environmental behaviour and policy support
 - Psychological mechanisms
-- Social norms and environmental behaviour
+- Social norms and cross-cultural variation
 :::
 
 ::: {.research-program-card}
@@ -63,12 +63,12 @@ This line of research examines the psychological consequences of climate change,
 
 ### Psychological Counselling, Education & Psychosocial Contexts
 
-This line focuses on how counselling and educational processes intersect with contextual conditions such as poverty, trauma, and social disadvantage.
+This line focuses on how counselling and educational processes intersect with structural and contextual conditions including poverty, trauma, social disadvantage, and inclusion.
 
 **Key themes**
 
 - Poverty-sensitive school counselling
-- Trauma-informed education
+- Trauma-informed education and school resilience
 - School-based psychosocial support
 - Teacher professional development
 - Inclusive education and school contexts
@@ -81,15 +81,15 @@ This line focuses on how counselling and educational processes intersect with co
 
 ### Digital Behaviour & Emotion Regulation
 
-I examine psychological and interpersonal processes associated with behaviour in digital environments, alongside adaptive and maladaptive patterns of emotion regulation.
+I study behaviour in digital environments together with empathy, resilience, self-regulation, and interpersonal processes, while also examining adaptive and maladaptive patterns of emotion regulation.
 
 **Key themes**
 
 - Cyberbullying and cybervictimisation
 - Digital citizenship
-- Empathy and resilience
+- Empathy and psychological resilience
 - Cognitive emotion regulation
-- Adaptive and maladaptive psychological processes
+- Mediation and psychological mechanism models
 :::
 
 ::: {.research-program-card}
@@ -99,14 +99,14 @@ I examine psychological and interpersonal processes associated with behaviour in
 
 ### Sport & Performance Psychology
 
-This research line focuses on psychological functioning in athletes, psychological performance, and intervention-based approaches. I aim to connect academic research with the realities of performance environments.
+I examine psychological functioning, distress, and performance processes in athletes, with particular interest in intervention-based and evidence-synthesis approaches. I connect this line with my applied experience in football settings.
 
 **Key themes**
 
-- Athlete psychology
-- Psychological performance
+- Athlete psychology and psychological performance
 - Mindfulness-based interventions
 - Psychological functioning and distress
+- Intervention effectiveness
 - Psychological processes in football
 :::
 
@@ -118,35 +118,35 @@ This research line focuses on psychological functioning in athletes, psychologic
 ::: {.research-shell}
 
 ::: {.section-kicker}
-METHODOLOGICAL APPROACH
+CURRENT ANALYTICAL EMPHASIS
 :::
 
-## Selecting methods to fit the research question
+## Making mechanisms, heterogeneity, and context visible
 
 ::: {.research-method-grid}
 
 ::: {.research-method-item}
-### Quantitative Research
+### Mechanism-Oriented Models
 
-Multivariable models, mediation and moderation analyses, psychometric evaluation, and multilevel approaches.
+Using mediation, moderation, and multivariable models to examine not only whether variables are associated, but also the psychological processes through which those associations may arise.
 :::
 
 ::: {.research-method-item}
-### Qualitative Research
+### Cross-Cultural & Multilevel Analysis
 
-Case study and qualitative approaches for understanding contextual and experiential processes.
+Using comparative and multilevel approaches that place individual psychological processes and contextual indicators within the same analytical framework across countries and groups.
+:::
+
+::: {.research-method-item}
+### Person-Centred & Network Approaches
+
+Moving beyond average effects to examine heterogeneity in psychological patterns through person-centred classifications and network-based models.
 :::
 
 ::: {.research-method-item}
 ### Evidence Synthesis
 
-Systematic review, meta-analysis, and evidence-mapping approaches for integrating fragmented findings.
-:::
-
-::: {.research-method-item}
-### Reproducible Research
-
-R-based analytical workflows, open-science practices, and transparent reporting of analytical decisions whenever possible.
+Integrating fragmented literatures through systematic review, meta-analysis, and evidence mapping while making the limits of the available evidence explicit.
 :::
 
 :::
@@ -154,6 +154,45 @@ R-based analytical workflows, open-science practices, and transparent reporting 
 :::
 
 ::: {.research-section}
+::: {.research-shell}
+
+::: {.section-kicker}
+METHODOLOGICAL PRINCIPLES
+:::
+
+## Methods matched to the research question, with transparent analytical workflows
+
+::: {.research-method-grid}
+
+::: {.research-method-item}
+### Quantitative Research
+
+Multivariable models, psychometric evaluation, multilevel analysis, and advanced statistical approaches.
+:::
+
+::: {.research-method-item}
+### Qualitative & Mixed Methods
+
+Case study methodology, qualitative analysis, and mixed-method designs when contextual and experiential processes require complementary forms of evidence.
+:::
+
+::: {.research-method-item}
+### R-Based Research Workflows
+
+R-based data processing, statistical modelling, and visualisation designed to be as reproducible as the research context permits.
+:::
+
+::: {.research-method-item}
+### Open Science
+
+Making analytical decisions, code, and research outputs traceable and verifiable when appropriate and feasible.
+:::
+
+:::
+:::
+:::
+
+::: {.research-section .research-soft}
 ::: {.research-shell}
 
 ::: {.section-kicker}
@@ -202,7 +241,7 @@ WG4 · Knowledge Dissemination and Capacity Building
 ::: {.research-cta-copy}
 ### Research outputs
 
-Explore my published work, manuscripts in progress, and ongoing research projects across the website.
+Explore my published work and current publication pipeline on the **Publications** page, and research projects on the **Projects** page.
 :::
 
 ::: {.research-cta-actions}
