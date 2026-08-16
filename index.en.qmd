@@ -4,7 +4,17 @@ toc: false
 description: "Research, academic work, and professional activities of Dr. Hasan Sarıcı."
 pagetitle: "Dr. Hasan Sarıcı | Researcher, Psychological Counsellor and Academic"
 description-meta: "Research, publications, projects, and academic work of Dr. Hasan Sarıcı."
+execute:
+  echo: false
+  warning: false
+  message: false
 ---
+
+```{r}
+#| label: homepage-publications
+source("R/publications_helpers.R")
+publications <- read_publications("data/publications.csv")
+```
 
 ::: {.home-page}
 
@@ -99,6 +109,31 @@ Psychological functioning in athletes, performance, mindfulness-based interventi
 :::
 :::
 
+::: {.home-section .featured-section}
+::: {.home-shell}
+
+::: {.section-kicker}
+SELECTED PUBLICATIONS
+:::
+
+## Recent peer-reviewed work
+
+::: {.section-intro}
+A selection of my recent peer-reviewed publications. Visit the Publications page for the complete publication record and manuscripts currently under review.
+:::
+
+```{r}
+#| results: asis
+render_featured_publications(publications, lang = "en", n = 3)
+```
+
+::: {.featured-publications-all}
+[View all publications →](publications.qmd)
+:::
+
+:::
+:::
+
 ::: {.home-section .approach-section}
 ::: {.home-shell}
 
@@ -138,7 +173,7 @@ Translating scientific findings into meaningful applications for psychological p
 ::: {.cta-copy}
 ### Explore my work in more detail
 
-Browse publications, ongoing projects, and research areas across the website.
+Browse publications, projects, and research areas across the website.
 :::
 
 ::: {.cta-actions}
