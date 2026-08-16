@@ -1,4 +1,4 @@
-/* PROFESSIONAL POLISH V2 */
+/* PROFESSIONAL POLISH V3 */
 
 .hero-role {
   margin-bottom: 0.65rem;
@@ -116,6 +116,24 @@
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.contact-hero-action {
+  margin-top: 2rem;
+}
+
+.contact-collaboration-card {
+  background: #ffffff;
+}
+
+.cv-contact-row {
+  row-gap: 0.85rem;
+}
+
+.cv-contact-link:hover,
+.contact-item h3 a:hover,
+.contact-card a:hover {
+  color: var(--hs-accent);
+}
+
 @media (min-width: 1100px) {
   .focus-grid-four {
     grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -150,5 +168,13 @@
 
   .featured-publication {
     min-height: auto;
+  }
+
+  .cv-contact-row {
+    gap: 0.75rem 1rem;
+  }
+
+  .cv-contact-link {
+    font-size: 0.9rem;
   }
 }
