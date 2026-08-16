@@ -2,7 +2,7 @@
 page-layout: custom
 toc: false
 pagetitle: "İletişim | Dr. Hasan Sarıcı"
-description-meta: "Dr. Hasan Sarıcı ile akademik iletişim, araştırma iş birlikleri ve profesyonel bağlantılar için iletişim bilgileri."
+description-meta: "Dr. Hasan Sarıcı ile akademik iş birliği, araştırma projeleri ve bilimsel iletişim için iletişim bilgileri."
 execute:
   echo: false
   warning: false
@@ -29,10 +29,14 @@ profile <- profile[1, ]
 İLETİŞİM
 :::
 
-# Bağlantı kurmak için
+# Akademik iş birliği ve araştırma iletişimi
 
 ::: {.contact-lead}
-Akademik iş birlikleri, araştırma projeleri, bilimsel iletişim ve profesyonel çalışmalar için benimle doğrudan iletişime geçebilirsiniz.
+Ortak araştırma ve proje geliştirme, yöntemsel iş birliği, bilimsel iletişim ve akademik çalışmalarla ilgili yazışmalar için e-posta üzerinden benimle iletişime geçebilirsiniz.
+:::
+
+::: {.contact-hero-action}
+[E-posta gönder →](mailto:`r profile$email`){.home-button .home-button-primary}
 :::
 
 :::
@@ -45,7 +49,7 @@ Akademik iş birlikleri, araştırma projeleri, bilimsel iletişim ve profesyone
 
 ::: {.contact-primary}
 
-## İletişim bilgileri
+## Doğrudan iletişim ve akademik profiller
 
 ::: {.contact-item}
 ::: {.contact-label}
@@ -62,9 +66,19 @@ Akademik ve profesyonel yazışmalar için tercih edilen iletişim kanalı.
 ORCID
 :::
 
-### [`r profile$orcid`](https://orcid.org/`r profile$orcid`){target="_blank"}
+### [`r profile$orcid`](https://orcid.org/`r profile$orcid`){target="_blank" rel="noopener"}
 
-Araştırmacı kimliği ve akademik kayıt bağlantısı.
+Kalıcı araştırmacı kimliği ve akademik kayıt bağlantısı.
+:::
+
+::: {.contact-item}
+::: {.contact-label}
+GITHUB
+:::
+
+### [github.com/hasansarici3](https://github.com/hasansarici3){target="_blank" rel="noopener"}
+
+Açık ve yeniden üretilebilir araştırma süreçleriyle ilişkili kod ve repository çalışmaları.
 :::
 
 :::
@@ -73,24 +87,28 @@ Araştırmacı kimliği ve akademik kayıt bağlantısı.
 
 ::: {.contact-card}
 ::: {.contact-label}
-KURUM
+KURUMSAL BAĞLILIK
 :::
 
-### `r profile$institution_tr`
+### `r profile$program_tr`
 
-`r profile$faculty_tr`  
 `r profile$department_tr`  
-`r profile$program_tr`
+`r profile$faculty_tr`  
+`r profile$institution_tr`
 
 **`r profile$position_tr`**
+
+[Üniversite akademik kadro kaydı ↗](https://egitim.beun.edu.tr/egitim-bilimleri-bolumu/akademik-kadro.html){target="_blank" rel="noopener"}
 :::
 
-::: {.contact-card}
+::: {.contact-card .contact-collaboration-card}
 ::: {.contact-label}
-ARAŞTIRMA
+İŞ BİRLİĞİ ALANLARI
 :::
 
-İklim ve çevre psikolojisi, psikolojik danışmanlık ve eğitim, dijital davranış ve duygu düzenleme ile spor ve performans psikolojisi.
+İklim ve çevre psikolojisi; psikolojik danışmanlık ve eğitim; dijital davranış ve duygu düzenleme; spor ve performans psikolojisi.
+
+Yöntemsel olarak sistematik derleme ve meta-analiz, kültürlerarası ve çok düzeyli analizler ile R tabanlı yeniden üretilebilir araştırma süreçleri özellikle ilgi alanlarım arasında.
 
 [Araştırma programını incele →](research.qmd)
 :::
@@ -108,7 +126,7 @@ ARAŞTIRMA
 :::
 ### Akademik çalışmalar
 
-Güncel araştırma çıktıları, projeler ve akademik özgeçmiş için ilgili sayfaları inceleyebilirsiniz.
+Yayımlanmış çalışmalar, güncel yayın hattı, araştırma projeleri ve ayrıntılı akademik özgeçmiş ilgili sayfalarda yer alıyor.
 :::
 
 ::: {.contact-cta-links}
