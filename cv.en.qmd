@@ -32,7 +32,7 @@ ACADEMIC CURRICULUM VITAE
 :::
 
 ::: {.cv-affiliation}
-`r profile$institution_en` · `r profile$faculty_en` · `r profile$department_en` · `r profile$department_en`
+`r profile$department_en` · `r profile$faculty_en` · `r profile$institution_en`
 :::
 
 ::: {.cv-contact-row}
@@ -147,7 +147,7 @@ render_cv_publications(cv$publications, "peer_reviewed", "en")
 ::: {.cv-shell}
 
 ::: {.section-kicker}
-MANUSCRIPTS UNDER REVIEW
+MANUSCRIPTS IN THE PUBLICATION PIPELINE
 :::
 
 ```{r}
@@ -192,7 +192,7 @@ render_cv_networks(cv$networks)
 ::: {.cv-shell}
 
 ::: {.section-kicker}
-SERTİFİKALAR VE MESLEKİ EDUCATIONLER
+CERTIFICATIONS & PROFESSIONAL TRAINING
 :::
 
 ```{r}
