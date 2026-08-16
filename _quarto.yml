@@ -3,8 +3,7 @@ project:
 
 website:
   title: "Dr. Hasan Sarıcı"
-
-
+  site-url: "https://hasansarici3.github.io/hasan-sarici-website/"
   open-graph: true
   twitter-card: true
   page-footer:
@@ -15,12 +14,14 @@ website:
       - text: ORCID
         href: https://orcid.org/0000-0001-8017-2694
     border: true
+
 format:
   html:
     theme: cosmo
     css: styles.css
     include-in-header: language-switcher.html
     toc: false
+    canonical-url: true
 
 babelquarto:
   languagelinks: navbar
