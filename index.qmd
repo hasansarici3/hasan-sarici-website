@@ -21,12 +21,22 @@ PSİKOLOJİ · ARAŞTIRMA · UYGULAMA
 **Akademisyen · Psikolojik Danışman · Araştırmacı**
 :::
 
+::: {.hero-affiliation}
+**Rehberlik ve Psikolojik Danışmanlık Programı** · Eğitim Bilimleri Bölümü · Ereğli Eğitim Fakültesi · Zonguldak Bülent Ecevit Üniversitesi
+:::
+
 ::: {.hero-lead}
 İnsanların psikolojik süreçlerini; çevresel, kültürel ve sportif bağlamlarla birlikte anlamaya odaklanıyorum.
 :::
 
 ::: {.hero-copy}
 Çalışmalarım iklim kaygısı, psikolojik mekanizmalar, çevre yanlısı davranışlar, kültürlerarası psikoloji ve spor/futbol psikolojisi üzerinde yoğunlaşıyor. Araştırmalarımda yöntemsel titizliği, açık ve yeniden üretilebilir bilimi ve uygulamaya aktarılabilir çıktıları birlikte önemsiyorum.
+:::
+
+::: {.hero-profile-links}
+[ORCID ↗](https://orcid.org/0000-0001-8017-2694)
+[GitHub ↗](https://github.com/hasansarici3)
+[E-posta](mailto:hasansarici3@gmail.com)
 :::
 
 ::: {.hero-actions}
