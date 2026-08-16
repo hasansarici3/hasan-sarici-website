@@ -52,4 +52,37 @@ babelquarto::render_website(
   preview = FALSE
 )
 
+# babelquarto currently leaves the source-language suffix in English
+# hreflang URLs (e.g. /en/about.en.html) even though the deployed file is
+# /en/about.html. Repair only the generated alternate-language metadata.
+site_output <- file.path(site_dir, "_site")
+html_files <- list.files(
+  site_output,
+  pattern = "\\.html$",
+  recursive = TRUE,
+  full.names = TRUE
+)
+
+for (html_file in html_files) {
+  x <- readLines(html_file, warn = FALSE, encoding = "UTF-8")
+  target <- grepl('rel="alternate"', x, fixed = TRUE) &
+    grepl('hreflang="en"', x, fixed = TRUE)
+
+  if (any(target)) {
+    x[target] <- sub("\\.en\\.html", ".html", x[target])
+    writeLines(x, html_file, useBytes = TRUE)
+  }
+}
+
+# The root sitemap contains both languages. Point the English robots file
+# to that real sitemap instead of a non-existent /en/sitemap.xml.
+en_robots <- file.path(site_output, "en", "robots.txt")
+if (file.exists(en_robots)) {
+  writeLines(
+    "Sitemap: https://hasansarici3.github.io/hasan-sarici-website/sitemap.xml",
+    en_robots,
+    useBytes = TRUE
+  )
+}
+
 message("PDF CVler ve web sitesi başarıyla güncellendi.")
