@@ -14,13 +14,9 @@ pdf_authors <- function(x) {
   x <- pdf_txt(x)
   if (!nzchar(x)) return("")
 
-  # Başta/sonda gereksiz boşlukları temizle
   x <- trimws(x)
-
-  # Noktadan önce oluşmuş boşlukları temizle
   x <- gsub("\\s+\\.", ".", x)
 
-  # Son yazar baş harfi noktasız kaldıysa nokta ekle
   if (grepl("[[:alpha:]ÇĞİÖŞÜçğıöşü]$", x)) {
     x <- paste0(x, ".")
   }
@@ -115,12 +111,27 @@ pdf_publications <- function(x, category, lang = "tr") {
     volume <- pdf_txt(d$volume_issue[i])
     pages <- pdf_txt(d$pages[i])
     doi <- pdf_txt(d$doi[i])
+    status <- pdf_txt(d$status[i])
 
     if (category == "under_review") {
-      prefix <- if (lang == "tr") "Değerlendirmede" else "Under review"
       cat("- ")
       if (nzchar(authors)) cat(authors, " ")
-      cat("**", title, ".** ", prefix, ": *", venue, ".*\n", sep = "")
+      cat("**", title, ".** ", sep = "")
+
+      if (status == "peer_review") {
+        label <- if (lang == "tr") "Hakem değerlendirmesinde" else "In peer review"
+        cat(label, ": *", venue, ".*\n", sep = "")
+      } else if (status == "revising") {
+        label <- if (lang == "tr") "Revizyon / yeniden gönderim hazırlığı" else "Revision / preparing resubmission"
+        cat(label, ".\n", sep = "")
+      } else {
+        label <- if (lang == "tr") "Gönderildi / editoryal süreçte" else "Submitted / in editorial process"
+        if (nzchar(venue)) {
+          cat(label, ": *", venue, ".*\n", sep = "")
+        } else {
+          cat(label, ".\n", sep = "")
+        }
+      }
 
     } else if (category == "books") {
 
