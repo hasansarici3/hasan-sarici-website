@@ -51,13 +51,14 @@ render_cv_experience <- function(x, lang = "tr") {
   for (i in seq_len(nrow(x))) {
     period <- x[[paste0("period_", lang)]][i]
     position <- x[[paste0("position_", lang)]][i]
+    institution <- x[[paste0("institution_", lang)]][i]
     unit <- x[[paste0("unit_", lang)]][i]
 
     cat('<div class="cv-timeline-item">\n')
     cat('<div class="cv-period">', cv_escape(period), '</div>\n', sep = "")
     cat('<div class="cv-timeline-content">\n')
     cat("<h3>", cv_escape(position), "</h3>\n", sep = "")
-    cat("<p><strong>", cv_escape(x$institution[i]), "</strong><br>", cv_escape(unit), "</p>\n", sep = "")
+    cat("<p><strong>", cv_escape(institution), "</strong><br>", cv_escape(unit), "</p>\n", sep = "")
     cat("</div></div>\n")
   }
 }
@@ -68,6 +69,7 @@ render_cv_education <- function(x, lang = "tr") {
 
     degree <- x[[paste0("degree_", lang)]][i]
     field <- x[[paste0("field_", lang)]][i]
+    institution <- x[[paste0("institution_", lang)]][i]
     unit <- x[[paste0("unit_", lang)]][i]
     note <- x[[paste0("note_", lang)]][i]
 
@@ -75,7 +77,7 @@ render_cv_education <- function(x, lang = "tr") {
     cat('<div class="cv-period">', cv_escape(x$period[i]), '</div>\n', sep = "")
     cat('<div class="cv-timeline-content">\n')
     cat("<h3>", cv_escape(degree), " · ", cv_escape(field), "</h3>\n", sep = "")
-    cat("<p><strong>", cv_escape(x$institution[i]), "</strong><br>", cv_escape(unit), "</p>\n", sep = "")
+    cat("<p><strong>", cv_escape(institution), "</strong><br>", cv_escape(unit), "</p>\n", sep = "")
 
     if (nzchar(cv_clean(x$thesis[i]))) {
       thesis_label <- if (lang == "tr") "Tez" else "Thesis"
