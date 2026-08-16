@@ -123,7 +123,7 @@ Yöntemsel olarak sistematik derleme ve meta-analiz, kültürlerarası ve çok d
 ::: {.contact-cta}
 ::: {.contact-shell .contact-cta-inner}
 
-:::
+::: {.contact-cta-copy}
 ### Akademik çalışmalar
 
 Yayımlanmış çalışmalar, güncel yayın hattı, araştırma projeleri ve ayrıntılı akademik özgeçmiş ilgili sayfalarda yer alıyor.
