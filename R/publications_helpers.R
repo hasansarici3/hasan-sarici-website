@@ -23,6 +23,24 @@ clean_value <- function(x) {
   trimws(x)
 }
 
+pipeline_status_label <- function(status, lang = "tr") {
+  status <- clean_value(status)
+
+  if (status == "peer_review") {
+    return(if (lang == "tr") "Hakem değerlendirmesinde" else "In peer review")
+  }
+
+  if (status == "revising") {
+    return(if (lang == "tr") "Revizyon / yeniden gönderim hazırlığı" else "Revision / preparing resubmission")
+  }
+
+  if (status == "submitted") {
+    return(if (lang == "tr") "Gönderildi / editoryal süreçte" else "Submitted / in editorial process")
+  }
+
+  if (lang == "tr") "Yayın sürecinde" else "In publication process"
+}
+
 render_publications <- function(x, category, lang = "tr") {
 
   if (category == "books") {
@@ -63,9 +81,8 @@ render_publications <- function(x, category, lang = "tr") {
     }
 
     if (row$category == "under_review") {
-      review_label <- if (lang == "tr") "Değerlendirmede" else "Under review"
       cat("::: {.publication-tag .publication-tag-review}\n")
-      cat(review_label, "\n")
+      cat(pipeline_status_label(row$status, lang), "\n")
       cat(":::\n")
     }
 
@@ -112,10 +129,19 @@ render_publications <- function(x, category, lang = "tr") {
 
     } else if (row$category == "under_review") {
 
-      journal_prefix <- if (lang == "tr") "Değerlendirildiği dergi:" else "Under review at:"
-
       cat("::: {.publication-meta}\n")
-      cat(journal_prefix, " *", venue, "*\n", sep = "")
+
+      if (row$status == "revising") {
+        cat(if (lang == "tr") {
+          "Metin, bir sonraki gönderim için revize edilmektedir.\n"
+        } else {
+          "The manuscript is being revised for its next submission.\n"
+        })
+      } else if (nzchar(venue)) {
+        journal_prefix <- if (lang == "tr") "Güncel dergi:" else "Current journal:"
+        cat(journal_prefix, " *", venue, "*\n", sep = "")
+      }
+
       cat(":::\n\n")
 
     } else {
@@ -178,9 +204,8 @@ render_featured_publications <- function(x, lang = "tr", n = 3) {
 
     doi <- clean_value(row$doi)
     if (nzchar(doi)) {
-      label <- if (lang == "tr") "DOI ↗" else "DOI ↗"
       cat("::: {.featured-publication-link}\n")
-      cat("[", label, "](https://doi.org/", doi, "){target=\"_blank\" rel=\"noopener\"}\n", sep = "")
+      cat("[DOI ↗](https://doi.org/", doi, "){target=\"_blank\" rel=\"noopener\"}\n", sep = "")
       cat(":::\n")
     }
 
