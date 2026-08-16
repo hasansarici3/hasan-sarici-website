@@ -4,6 +4,7 @@ project:
 website:
   title: "Dr. Hasan Sarıcı"
   site-url: "https://hasansarici.com/"
+  favicon: favicon.svg
   open-graph: true
   twitter-card: true
   page-footer:
@@ -13,13 +14,19 @@ website:
         href: mailto:hasansarici3@gmail.com
       - text: ORCID
         href: https://orcid.org/0000-0001-8017-2694
+      - text: GitHub
+        href: https://github.com/hasansarici3
     border: true
 
 format:
   html:
     theme: cosmo
-    css: styles.css
-    include-in-header: language-switcher.html
+    css:
+      - styles.css
+      - polish.css
+    include-in-header:
+      - language-switcher.html
+      - person-metadata.html
     toc: false
     canonical-url: true
 
