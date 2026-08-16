@@ -32,7 +32,7 @@ AKADEMİK ÖZGEÇMİŞ
 :::
 
 ::: {.cv-affiliation}
-`r profile$institution_tr` · `r profile$faculty_tr` · `r profile$department_tr` · `r profile$department_tr`
+`r profile$department_tr` · `r profile$faculty_tr` · `r profile$institution_tr`
 :::
 
 ::: {.cv-contact-row}
@@ -147,7 +147,7 @@ render_cv_publications(cv$publications, "peer_reviewed", "tr")
 ::: {.cv-shell}
 
 ::: {.section-kicker}
-DEĞERLENDİRME SÜRECİNDEKİ ÇALIŞMALAR
+YAYIN SÜRECİNDEKİ ÇALIŞMALAR
 :::
 
 ```{r}
