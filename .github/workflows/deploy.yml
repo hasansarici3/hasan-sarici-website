@@ -37,8 +37,8 @@ jobs:
       - name: Install R packages
         shell: Rscript {0}
         run: |
-          install.packages(c("quarto", "servr", "remotes"))
-          remotes::install_github("ropensci-review-tools/babelquarto")
+          install.packages(c("quarto", "servr"))
+          install.packages("babelquarto", repos = c("https://ropensci.r-universe.dev", "https://cloud.r-project.org"))
 
       - name: Build PDF CVs and website
         shell: Rscript {0}
