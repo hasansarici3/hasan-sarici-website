@@ -32,9 +32,10 @@ p <- cv$profile[1, ]
 **`r p$position_en`**  
 `r p$program_en`  
 `r p$department_en`  
-`r p$institution_en` - `r p$faculty_en`
+`r p$faculty_en`  
+`r p$institution_en`
 
-`r p$email` · ORCID: `r p$orcid`
+`r p$email` · [hasansarici.com](https://hasansarici.com) · ORCID: `r p$orcid`
 
 
 ## Research Interests
