@@ -37,9 +37,10 @@ pdf_experience <- function(x, lang = "tr") {
   for (i in seq_len(nrow(x))) {
     period <- x[[paste0("period_", lang)]][i]
     position <- x[[paste0("position_", lang)]][i]
+    institution <- x[[paste0("institution_", lang)]][i]
     unit <- x[[paste0("unit_", lang)]][i]
     cat("**", pdf_txt(period), " | ", pdf_txt(position), "**  \n", sep = "")
-    cat(pdf_txt(x$institution[i]), " - ", pdf_txt(unit), "\n\n", sep = "")
+    cat(pdf_txt(institution), " - ", pdf_txt(unit), "\n\n", sep = "")
   }
 }
 
@@ -48,11 +49,12 @@ pdf_education <- function(x, lang = "tr") {
   for (i in seq_len(nrow(x))) {
     degree <- x[[paste0("degree_", lang)]][i]
     field <- x[[paste0("field_", lang)]][i]
+    institution <- x[[paste0("institution_", lang)]][i]
     unit <- x[[paste0("unit_", lang)]][i]
     note <- x[[paste0("note_", lang)]][i]
 
     cat("**", pdf_txt(x$period[i]), " | ", pdf_txt(degree), " - ", pdf_txt(field), "**  \n", sep = "")
-    cat(pdf_txt(x$institution[i]), " - ", pdf_txt(unit), "  \n", sep = "")
+    cat(pdf_txt(institution), " - ", pdf_txt(unit), "  \n", sep = "")
 
     if (nzchar(pdf_txt(x$thesis[i]))) {
       label <- if (lang == "tr") "Tez" else "Thesis"
