@@ -20,6 +20,7 @@ ROOT_PAGES = [
     "research.html",
     "publications.html",
     "projects.html",
+    "seminars.html",
     "cv.html",
     "contact.html",
 ]

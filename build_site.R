@@ -74,6 +74,44 @@ for (html_file in html_files) {
   }
 }
 
+# Normalize canonical and hreflang URLs to the production domain.
+# babelquarto may emit root-relative URLs such as /about.html or /en/about.html.
+base_url <- "https://hasansarici.com"
+
+for (html_file in html_files) {
+  x <- readLines(html_file, warn = FALSE, encoding = "UTF-8")
+  
+  metadata_lines <-
+    grepl('rel="canonical"', x, fixed = TRUE) |
+    grepl('rel="alternate"', x, fixed = TRUE)
+  
+  if (any(metadata_lines)) {
+    x[metadata_lines] <- gsub(
+      'href="/',
+      paste0('href="', base_url, "/"),
+      x[metadata_lines],
+      fixed = TRUE
+    )
+    
+    writeLines(x, html_file, useBytes = TRUE)
+  }
+}
+
+# Normalize root-relative URLs in sitemap.xml.
+sitemap_file <- file.path(site_output, "sitemap.xml")
+
+if (file.exists(sitemap_file)) {
+  x <- readLines(sitemap_file, warn = FALSE, encoding = "UTF-8")
+  
+  x <- gsub(
+    "<loc>/",
+    paste0("<loc>", base_url, "/"),
+    x,
+    fixed = TRUE
+  )
+  
+  writeLines(x, sitemap_file, useBytes = TRUE)
+}
 # The root sitemap contains both languages. Point the English robots file
 # to that real sitemap instead of a non-existent /en/sitemap.xml.
 en_robots <- file.path(site_output, "en", "robots.txt")
