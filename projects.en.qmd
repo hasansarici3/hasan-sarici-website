@@ -2,7 +2,7 @@
 page-layout: custom
 toc: false
 pagetitle: "Projects | Dr. Hasan Sarıcı"
-description-meta: "Ongoing and completed research projects of Dr. Hasan Sarıcı."
+description-meta: "Research projects and funded academic work of Dr. Hasan Sarıcı."
 execute:
   echo: false
   warning: false
@@ -31,18 +31,12 @@ PROJECTS
 My research projects examine psychosocial processes, educational environments, and psychological functioning within real-world contexts.
 :::
 
-::: {.project-stats}
+::: {.project-stats .project-stats-three}
 
 ::: {.project-stat}
 `r project_stats$total`
 
 **Recorded projects**
-:::
-
-::: {.project-stat}
-`r project_stats$ongoing`
-
-**Ongoing**
 :::
 
 ::: {.project-stat}
@@ -61,35 +55,18 @@ My research projects examine psychosocial processes, educational environments, a
 :::
 :::
 
-::: {.projects-section}
-::: {.projects-shell}
-
-::: {.section-kicker}
-ONGOING
-:::
-
-## Current research projects
-
-```{r}
-#| results: asis
-render_projects(
-  projects,
-  status = "ongoing",
-  lang = "en"
-)
-```
-
-:::
-:::
-
 ::: {.projects-section .projects-soft}
 ::: {.projects-shell}
 
 ::: {.section-kicker}
-COMPLETED
+RESEARCH PROJECTS
 :::
 
-## Previous research projects
+## Completed projects
+
+::: {.projects-note}
+This page presents institutionally or externally supported research projects. New projects will be added through the same data-driven structure as they begin.
+:::
 
 ```{r}
 #| results: asis
