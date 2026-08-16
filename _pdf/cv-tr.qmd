@@ -86,7 +86,7 @@ pdf_teaching(cv$teaching, "tr")
 pdf_publications(cv$publications, "peer_reviewed", "tr")
 ```
 
-## Değerlendirme Sürecindeki Çalışmalar
+## Yayın Sürecindeki Çalışmalar
 
 ```{r}
 #| results: asis
