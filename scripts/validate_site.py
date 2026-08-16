@@ -68,8 +68,12 @@ def expected_canonical(rel: str) -> str:
 
 def expected_alternates(rel: str) -> dict[str, str]:
     name = PurePosixPath(rel).name
+    # babelquarto intentionally emits the Turkish home alternate as the
+    # canonical apex URL (without /index.html), while the English alternate
+    # retains /en/index.html. Other page alternates use their HTML filenames.
+    tr_url = BASE_URL.rstrip("/") if name == "index.html" else BASE_URL + name
     return {
-        "tr": BASE_URL + name,
+        "tr": tr_url,
         "en": BASE_URL + "en/" + name,
     }
 
