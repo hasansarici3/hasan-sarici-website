@@ -79,7 +79,7 @@ for (html_file in html_files) {
 en_robots <- file.path(site_output, "en", "robots.txt")
 if (file.exists(en_robots)) {
   writeLines(
-    "Sitemap: https://hasansarici3.github.io/hasan-sarici-website/sitemap.xml",
+    "Sitemap: https://hasansarici.com/sitemap.xml",
     en_robots,
     useBytes = TRUE
   )
