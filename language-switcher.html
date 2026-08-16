@@ -1,0 +1,68 @@
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const holder = document.getElementById("languages-links-parent");
+  const button = document.getElementById("languages-button");
+
+  if (!holder || !button) return;
+
+  const navItem = holder.closest(".nav-item");
+
+  const currentMatch = (button.textContent || "")
+    .toUpperCase()
+    .match(/\b(TR|EN)\b/);
+
+  const current = currentMatch ? currentMatch[1] : null;
+  const hrefs = {};
+
+  holder.querySelectorAll(".dropdown-menu a").forEach(function (a) {
+    const match = (a.textContent || "")
+      .toUpperCase()
+      .match(/\b(TR|EN)\b/);
+
+    if (match) {
+      hrefs[match[1]] = a.getAttribute("href");
+    }
+  });
+
+  holder.innerHTML = "";
+  holder.className = "language-inline";
+
+  ["TR", "EN"].forEach(function (code, index) {
+
+    if (index > 0) {
+      const separator = document.createElement("span");
+      separator.className = "language-separator";
+      separator.textContent = "|";
+      holder.appendChild(separator);
+    }
+
+    if (code === current) {
+      const active = document.createElement("span");
+      active.className = "lang-active";
+      active.textContent = code;
+      active.setAttribute("aria-current", "page");
+      holder.appendChild(active);
+    } else if (hrefs[code]) {
+      const link = document.createElement("a");
+      link.className = "lang-link";
+      link.textContent = code;
+      link.href = hrefs[code];
+      link.setAttribute("aria-label", code + " diline geç");
+      holder.appendChild(link);
+    }
+  });
+
+  if (navItem) {
+    navItem.classList.add("language-switcher-nav");
+
+    const navbar = document.getElementById("navbarCollapse");
+
+    if (navbar) {
+      navItem.remove();
+      navbar.appendChild(navItem);
+    }
+  }
+
+});
+</script>

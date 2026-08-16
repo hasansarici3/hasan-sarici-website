@@ -1,0 +1,157 @@
+---
+page-layout: custom
+toc: false
+pagetitle: "Hakkımda | Dr. Hasan Sarıcı"
+description-meta: "Dr. Hasan Sarıcı’nın akademik geçmişi, araştırma alanları ve profesyonel deneyimi."
+---
+
+::: {.about-page}
+
+::: {.about-hero}
+::: {.about-shell}
+
+::: {.section-kicker}
+HAKKIMDA
+:::
+
+# Psikolojik süreçleri farklı bağlamlarda anlamaya odaklanan bir araştırmacı ve psikolojik danışmanım.
+
+::: {.about-lead}
+Zonguldak Bülent Ecevit Üniversitesi Ereğli Eğitim Fakültesi Eğitim Bilimleri Bölümü, Rehberlik ve Psikolojik Danışmanlık Programı’nde araştırma görevlisi olarak çalışıyorum.
+:::
+
+::: {.about-intro}
+Araştırmalarım; iklim değişikliği ve ruh sağlığı, çevre yanlısı davranışlar, psikolojik mekanizmalar, siber zorbalık ve siber mağduriyet, yoksulluk duyarlı okul psikolojik danışmanlığı, travmaya duyarlı eğitim, bilişsel duygu düzenleme ve spor psikolojisi gibi birbirini tamamlayan alanlarda ilerliyor.
+
+Bu alanları birbirinden bağımsız konular olarak değil; bireyin psikolojik süreçleri ile içinde bulunduğu çevresel, sosyal, kültürel ve performans bağlamları arasındaki ilişkileri anlamaya yönelik daha geniş bir araştırma programının parçaları olarak ele alıyorum.
+:::
+
+::: {.about-links}
+[ORCID: 0000-0001-8017-2694](https://orcid.org/0000-0001-8017-2694){.about-link target="_blank"}
+[Yayınlar](publications.qmd){.about-link}
+[CV](cv.qmd){.about-link}
+:::
+
+:::
+:::
+
+::: {.about-section}
+::: {.about-shell}
+
+::: {.section-kicker}
+AKADEMİK GEÇMİŞ
+:::
+
+## Eğitim
+
+::: {.education-list}
+
+::: {.education-item}
+**Doktora · 2024**
+
+### Rehberlik ve Psikolojik Danışmanlık
+
+Orta Doğu Teknik Üniversitesi · Sosyal Bilimler Enstitüsü
+
+**Doktora tezi:** *Poverty-sensitive school counseling: A multiple case study on understanding poverty in school settings*
+
+**Danışman:** Prof. Dr. Özgür Erdur Baker
+:::
+
+::: {.education-item}
+**Yüksek Lisans · 2018**
+
+### Rehberlik ve Psikolojik Danışmanlık
+
+Burdur Mehmet Akif Ersoy Üniversitesi · Eğitim Bilimleri Enstitüsü
+
+**Tez:** *The role of childhood trauma and automatic thoughts in university students’ cognitive emotion regulation*
+
+**Danışman:** Prof. Dr. Özlem Tagay
+:::
+
+::: {.education-item}
+**Lisans · 2016**
+
+### Rehberlik ve Psikolojik Danışmanlık
+
+Necmettin Erbakan Üniversitesi · Ahmet Keleşoğlu Eğitim Fakültesi
+:::
+
+:::
+:::
+:::
+
+::: {.about-section .about-soft}
+::: {.about-shell}
+
+::: {.section-kicker}
+AKADEMİK DENEYİM
+:::
+
+## Araştırma, öğretim ve psikolojik danışmanlık ekseninde çalışan bir akademik profil
+
+::: {.about-three-grid}
+
+::: {.about-card}
+### Akademik Görevler
+
+**2023–günümüz**  
+Zonguldak Bülent Ecevit Üniversitesi · Araştırma Görevlisi
+
+**2019–2023**  
+Orta Doğu Teknik Üniversitesi · Araştırma Görevlisi
+
+**2017–2019**  
+Bülent Ecevit Üniversitesi · Araştırma Görevlisi
+:::
+
+::: {.about-card}
+### Öğretim
+
+Bireyle Psikolojik Danışma Uygulamaları, Kültüre Duyarlı Psikolojik Danışma, Okullarda Rehberlik, Spor Psikolojisi, Psikolojiye Giriş, Eğitim Psikolojisi, Mesleki Rehberlik ve Çocuk Psikolojisi başta olmak üzere lisans düzeyinde çeşitli dersler yürüttüm.
+:::
+
+::: {.about-card}
+### Yöntemsel Yaklaşım
+
+Nicel ve nitel araştırma yöntemlerini birlikte kullanıyorum. Çalışmalarımda R programlama, SPSS, vaka çalışması metodolojisi, sistematik derleme ve ileri istatistiksel analizlerden yararlanıyorum.
+:::
+
+:::
+:::
+:::
+
+::: {.about-section}
+::: {.about-shell}
+
+::: {.section-kicker}
+SPOR VE PSİKOLOJİK PERFORMANS
+:::
+
+## Akademik psikoloji bilgisini performans ortamlarıyla buluşturmak
+
+::: {.about-split}
+
+::: {.about-split-copy}
+Spor psikolojisi, akademik çalışmalarımın yanında uygulamalı olarak da yer aldığım alanlardan biridir. Türkiye Futbol Federasyonu tarafından düzenlenen psikolojik performans danışmanlığı eğitimlerinin üç seviyesini tamamladım ve UEFA Grassroots C antrenörlük lisansına sahibim.
+
+Amatör futbol takımlarında antrenörlük deneyimim bulunuyor. Bu deneyim, sporcu psikolojisi ve psikolojik performans çalışmalarımı doğrudan saha bağlamıyla ilişkilendirmeme olanak sağlıyor.
+:::
+
+::: {.fact-panel}
+**TFF Psikolojik Performans Danışmanlığı**  
+Seviye 1–3
+
+**UEFA Grassroots C**  
+Antrenörlük Lisansı
+
+**Spor Psikolojisi**  
+Araştırma · Öğretim · Uygulama
+:::
+
+:::
+:::
+:::
+
+:::

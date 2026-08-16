@@ -1,0 +1,166 @@
+---
+format:
+  typst:
+    papersize: a4
+    margin:
+      top: 14mm
+      bottom: 14mm
+      left: 16mm
+      right: 16mm
+    fontsize: 9pt
+    linestretch: 1.05
+    page-numbering: "1"
+execute-dir: project
+execute:
+  echo: false
+  warning: false
+  message: false
+lang: en
+title-meta: "Dr. Hasan Sarıcı - Academic Curriculum Vitae"
+author-meta: "Hasan Sarıcı"
+---
+
+```{r}
+#| label: setup
+source("R/cv_pdf_helpers.R")
+cv <- pdf_cv_data()
+p <- cv$profile[1, ]
+```
+
+# Hasan Sarıcı, PhD
+
+**`r p$position_en`**  
+`r p$program_en`  
+`r p$department_en`  
+`r p$institution_en` - `r p$faculty_en`
+
+`r p$email` · ORCID: `r p$orcid`
+
+
+## Research Interests
+
+```{r}
+#| results: asis
+pdf_interests(cv$interests, "en")
+```
+
+## Academic Positions
+
+```{r}
+#| results: asis
+pdf_experience(cv$experience, "en")
+```
+
+## Education
+
+```{r}
+#| results: asis
+pdf_education(cv$education, "en")
+```
+
+## Research Projects
+
+```{r}
+#| results: asis
+pdf_projects(cv$projects, "en")
+```
+
+
+```{=typst}
+#pagebreak()
+```
+
+## Courses Taught
+
+**Undergraduate level, 2024-2026**
+
+```{r}
+#| results: asis
+pdf_teaching(cv$teaching, "en")
+```
+
+## Peer-Reviewed Publications
+
+```{r}
+#| results: asis
+pdf_publications(cv$publications, "peer_reviewed", "en")
+```
+
+## Manuscripts Under Review
+
+```{r}
+#| results: asis
+pdf_publications(cv$publications, "under_review", "en")
+```
+
+
+
+## Books and Book Chapters
+
+```{r}
+#| results: asis
+pdf_publications(cv$publications, "books", "en")
+```
+
+
+```{=typst}
+#pagebreak()
+```
+
+## International Research Networks
+
+```{r}
+#| results: asis
+pdf_networks(cv$networks)
+```
+
+## Selected Conference Presentations
+
+### International Conferences
+
+```{r}
+#| results: asis
+pdf_conferences(cv$conferences, "international")
+```
+
+### National Conferences
+
+```{r}
+#| results: asis
+pdf_conferences(cv$conferences, "national")
+```
+
+## Certifications and Professional Training
+
+```{r}
+#| results: asis
+pdf_professional(cv$professional, "certification", "en")
+```
+
+## Sport and Coaching Experience
+
+```{r}
+#| results: asis
+pdf_professional(cv$professional, "coaching", "en")
+```
+
+## Professional Membership
+
+```{r}
+#| results: asis
+pdf_professional(cv$professional, "membership", "en")
+```
+
+## Languages
+
+```{r}
+#| results: asis
+pdf_professional(cv$professional, "language", "en")
+```
+
+## Technical and Methodological Skills
+
+```{r}
+#| results: asis
+pdf_professional(cv$professional, "skill", "en")
+```

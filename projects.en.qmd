@@ -1,0 +1,123 @@
+---
+page-layout: custom
+toc: false
+pagetitle: "Projects | Dr. Hasan Sarıcı"
+description-meta: "Ongoing and completed research projects of Dr. Hasan Sarıcı."
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r}
+#| label: projects-setup
+source("R/projects_helpers.R")
+projects <- read_projects("data/projects.csv")
+project_stats <- project_counts(projects)
+```
+
+::: {.projects-page}
+
+::: {.projects-hero}
+::: {.projects-shell}
+
+::: {.section-kicker}
+PROJECTS
+:::
+
+# Research projects connecting evidence with practice
+
+::: {.projects-lead}
+My research projects examine psychosocial processes, educational environments, and psychological functioning within real-world contexts.
+:::
+
+::: {.project-stats}
+
+::: {.project-stat}
+`r project_stats$total`
+
+**Recorded projects**
+:::
+
+::: {.project-stat}
+`r project_stats$ongoing`
+
+**Ongoing**
+:::
+
+::: {.project-stat}
+`r project_stats$completed`
+
+**Completed**
+:::
+
+::: {.project-stat}
+`r project_stats$externally_funded`
+
+**Externally funded**
+:::
+
+:::
+:::
+:::
+
+::: {.projects-section}
+::: {.projects-shell}
+
+::: {.section-kicker}
+ONGOING
+:::
+
+## Current research projects
+
+```{r}
+#| results: asis
+render_projects(
+  projects,
+  status = "ongoing",
+  lang = "en"
+)
+```
+
+:::
+:::
+
+::: {.projects-section .projects-soft}
+::: {.projects-shell}
+
+::: {.section-kicker}
+COMPLETED
+:::
+
+## Previous research projects
+
+```{r}
+#| results: asis
+render_projects(
+  projects,
+  status = "completed",
+  lang = "en"
+)
+```
+
+:::
+:::
+
+::: {.projects-cta}
+::: {.projects-shell .projects-cta-inner}
+
+::: {.projects-cta-copy}
+### Connected research outputs
+
+Explore publications arising from these and other strands of my research programme on the Publications page.
+:::
+
+::: {.projects-cta-actions}
+[Publications](publications.qmd){.home-button .home-button-light}
+[Research](research.qmd){.home-button .home-button-outline-light}
+:::
+
+:::
+:::
+
+:::

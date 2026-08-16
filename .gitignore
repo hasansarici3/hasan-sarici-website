@@ -1,0 +1,20 @@
+.DS_Store
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.quarto/
+_site/
+_backups/
+*.before_final_fix
+
+# PDF build intermediates
+_pdf/*.typ
+# Keep QMD source files in _pdf
+!_pdf/*.qmd
+_freeze/
+.env
+.env.*
+# Generated PDF intermediates
+_pdf/*.pdf
+# Keep PDF source QMD files

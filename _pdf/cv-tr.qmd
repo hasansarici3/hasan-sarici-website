@@ -1,0 +1,166 @@
+---
+format:
+  typst:
+    papersize: a4
+    margin:
+      top: 14mm
+      bottom: 14mm
+      left: 16mm
+      right: 16mm
+    fontsize: 9pt
+    linestretch: 1.05
+    page-numbering: "1"
+execute-dir: project
+execute:
+  echo: false
+  warning: false
+  message: false
+lang: tr
+title-meta: "Dr. Hasan Sarıcı - Akademik Özgeçmiş"
+author-meta: "Hasan Sarıcı"
+---
+
+```{r}
+#| label: setup
+source("R/cv_pdf_helpers.R")
+cv <- pdf_cv_data()
+p <- cv$profile[1, ]
+```
+
+# Hasan Sarıcı, PhD
+
+**`r p$position_tr`**  
+`r p$program_tr`  
+`r p$department_tr`  
+`r p$institution_tr` - `r p$faculty_tr`
+
+`r p$email` · ORCID: `r p$orcid`
+
+
+## Araştırma İlgi Alanları
+
+```{r}
+#| results: asis
+pdf_interests(cv$interests, "tr")
+```
+
+## Akademik Görevler
+
+```{r}
+#| results: asis
+pdf_experience(cv$experience, "tr")
+```
+
+## Eğitim
+
+```{r}
+#| results: asis
+pdf_education(cv$education, "tr")
+```
+
+## Araştırma Projeleri
+
+```{r}
+#| results: asis
+pdf_projects(cv$projects, "tr")
+```
+
+
+```{=typst}
+#pagebreak()
+```
+
+## Verilen Dersler
+
+**Lisans düzeyi, 2024-2026**
+
+```{r}
+#| results: asis
+pdf_teaching(cv$teaching, "tr")
+```
+
+## Hakemli Yayınlar
+
+```{r}
+#| results: asis
+pdf_publications(cv$publications, "peer_reviewed", "tr")
+```
+
+## Değerlendirme Sürecindeki Çalışmalar
+
+```{r}
+#| results: asis
+pdf_publications(cv$publications, "under_review", "tr")
+```
+
+
+
+## Kitaplar ve Kitap Bölümleri
+
+```{r}
+#| results: asis
+pdf_publications(cv$publications, "books", "tr")
+```
+
+
+```{=typst}
+#pagebreak()
+```
+
+## Uluslararası Araştırma Ağları
+
+```{r}
+#| results: asis
+pdf_networks(cv$networks)
+```
+
+## Seçilmiş Kongre Sunumları
+
+### Uluslararası Kongreler
+
+```{r}
+#| results: asis
+pdf_conferences(cv$conferences, "international")
+```
+
+### Ulusal Kongreler
+
+```{r}
+#| results: asis
+pdf_conferences(cv$conferences, "national")
+```
+
+## Sertifikalar ve Mesleki Eğitimler
+
+```{r}
+#| results: asis
+pdf_professional(cv$professional, "certification", "tr")
+```
+
+## Spor ve Antrenörlük Deneyimi
+
+```{r}
+#| results: asis
+pdf_professional(cv$professional, "coaching", "tr")
+```
+
+## Mesleki Üyelik
+
+```{r}
+#| results: asis
+pdf_professional(cv$professional, "membership", "tr")
+```
+
+## Diller
+
+```{r}
+#| results: asis
+pdf_professional(cv$professional, "language", "tr")
+```
+
+## Teknik ve Yöntemsel Beceriler
+
+```{r}
+#| results: asis
+pdf_professional(cv$professional, "skill", "tr")
+```

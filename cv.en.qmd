@@ -1,0 +1,248 @@
+---
+page-layout: custom
+toc: false
+pagetitle: "Academic CV | Dr. Hasan Sarıcı"
+description-meta: "Academic curriculum vitae of Dr. Hasan Sarıcı, including education, research, publications, teaching, and professional experience."
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r}
+#| label: cv-setup
+source("R/cv_helpers.R")
+cv <- load_cv_data()
+profile <- cv$profile[1, ]
+```
+
+::: {.cv-page}
+
+::: {.cv-hero}
+::: {.cv-shell}
+
+::: {.section-kicker}
+ACADEMIC CURRICULUM VITAE
+:::
+
+# Dr. Hasan Sarıcı
+
+::: {.cv-role}
+`r profile$position_en` · `r profile$program_en`
+:::
+
+::: {.cv-affiliation}
+`r profile$institution_en` · `r profile$faculty_en` · `r profile$department_en` · `r profile$department_en`
+:::
+
+::: {.cv-contact-row}
+[Email](mailto:`r profile$email`){.cv-contact-link}
+[ORCID](https://orcid.org/`r profile$orcid`){.cv-contact-link target="_blank"}
+[Publications](publications.qmd){.cv-contact-link}
+[Research](research.qmd){.cv-contact-link}
+[PDF CV - English](assets/documents/Hasan_Sarici_Academic_CV_EN.pdf){.cv-contact-link target="_blank"}
+[PDF CV - Türkçe](assets/documents/Hasan_Sarici_Akademik_CV_TR.pdf){.cv-contact-link target="_blank"}
+:::
+
+:::
+:::
+
+::: {.cv-section}
+::: {.cv-shell}
+
+::: {.section-kicker}
+RESEARCH INTERESTS
+:::
+
+```{r}
+#| results: asis
+render_cv_interests(cv$interests, "en")
+```
+
+:::
+:::
+
+::: {.cv-section .cv-soft}
+::: {.cv-shell}
+
+::: {.section-kicker}
+ACADEMIC POSITIONS
+:::
+
+```{r}
+#| results: asis
+render_cv_experience(cv$experience, "en")
+```
+
+:::
+:::
+
+::: {.cv-section}
+::: {.cv-shell}
+
+::: {.section-kicker}
+EDUCATION
+:::
+
+```{r}
+#| results: asis
+render_cv_education(cv$education, "en")
+```
+
+:::
+:::
+
+::: {.cv-section .cv-soft}
+::: {.cv-shell}
+
+::: {.section-kicker}
+RESEARCH PROJECTS
+:::
+
+```{r}
+#| results: asis
+render_cv_projects(cv$projects, "en")
+```
+
+:::
+:::
+
+::: {.cv-section}
+::: {.cv-shell}
+
+::: {.section-kicker}
+TEACHING EXPERIENCE
+:::
+
+## Undergraduate courses · 2024–2026
+
+```{r}
+#| results: asis
+render_cv_teaching(cv$teaching, "en")
+```
+
+:::
+:::
+
+::: {.cv-section .cv-soft}
+::: {.cv-shell}
+
+::: {.section-kicker}
+PEER-REVIEWED PUBLICATIONS
+:::
+
+```{r}
+#| results: asis
+render_cv_publications(cv$publications, "peer_reviewed", "en")
+```
+
+::: {.cv-more-link}
+[View all publications →](publications.qmd)
+:::
+
+:::
+:::
+
+::: {.cv-section}
+::: {.cv-shell}
+
+::: {.section-kicker}
+MANUSCRIPTS UNDER REVIEW
+:::
+
+```{r}
+#| results: asis
+render_cv_publications(cv$publications, "under_review", "en")
+```
+
+:::
+:::
+
+::: {.cv-section .cv-soft}
+::: {.cv-shell}
+
+::: {.section-kicker}
+BOOKS & BOOK CHAPTERS
+:::
+
+```{r}
+#| results: asis
+render_cv_publications(cv$publications, "books", "en")
+```
+
+:::
+:::
+
+::: {.cv-section}
+::: {.cv-shell}
+
+::: {.section-kicker}
+INTERNATIONAL RESEARCH NETWORKS
+:::
+
+```{r}
+#| results: asis
+render_cv_networks(cv$networks)
+```
+
+:::
+:::
+
+::: {.cv-section .cv-soft}
+::: {.cv-shell}
+
+::: {.section-kicker}
+SERTİFİKALAR VE MESLEKİ EDUCATIONLER
+:::
+
+```{r}
+#| results: asis
+render_cv_professional(cv$professional, "certification", "en")
+```
+
+:::
+:::
+
+::: {.cv-section}
+::: {.cv-shell}
+
+::: {.section-kicker}
+SPORT & COACHING EXPERIENCE
+:::
+
+```{r}
+#| results: asis
+render_cv_professional(cv$professional, "coaching", "en")
+```
+
+:::
+:::
+
+::: {.cv-section .cv-soft}
+::: {.cv-shell}
+
+::: {.cv-two-column}
+
+:::
+### Languages
+
+```{r}
+#| results: asis
+render_cv_professional(cv$professional, "language", "en")
+```
+:::
+
+:::
+### Technical & Methodological Skills
+
+```{r}
+#| results: asis
+render_cv_professional(cv$professional, "skill", "en")
+```
+:::
+
+:::
+:::
+:::
+
+:::

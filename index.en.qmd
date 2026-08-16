@@ -1,0 +1,142 @@
+---
+page-layout: custom
+toc: false
+description: "Research, academic work, and professional activities of Dr. Hasan Sarıcı."
+pagetitle: "Dr. Hasan Sarıcı | Researcher, Psychological Counsellor and Academic"
+description-meta: "Research, publications, projects, and academic work of Dr. Hasan Sarıcı."
+---
+
+::: {.home-page}
+
+::: {.home-hero}
+::: {.home-shell}
+
+::: {.hero-eyebrow}
+PSYCHOLOGY · RESEARCH · PRACTICE
+:::
+
+# Dr. Hasan Sarıcı
+
+::: {.hero-role}
+**Researcher · Psychological Counsellor · Academic**
+:::
+
+::: {.hero-lead}
+I study psychological processes in relation to the environmental, cultural, and sporting contexts in which they unfold.
+:::
+
+::: {.hero-copy}
+My work focuses on climate anxiety, psychological mechanisms, pro-environmental outcomes, cross-cultural psychology, and sport and football psychology. Across these areas, I prioritise methodological rigour, open and reproducible science, and research with meaningful practical implications.
+:::
+
+::: {.hero-actions}
+[Explore My Research](research.qmd){.home-button .home-button-primary}
+[Publications](publications.qmd){.home-button}
+[CV](cv.qmd){.home-button .home-button-quiet}
+:::
+
+:::
+:::
+
+::: {.home-section}
+::: {.home-shell}
+
+::: {.section-kicker}
+RESEARCH FOCUS
+:::
+
+## Understanding psychological processes in context
+
+::: {.section-intro}
+My research programme develops around four interconnected lines examining psychological processes across environmental, social, educational, and performance contexts.
+:::
+
+::: {.focus-grid .focus-grid-four}
+
+::: {.focus-card}
+### Climate & Environmental Psychology
+
+Climate anxiety, climate emotions, psychological responses to environmental threats, and pro-environmental behaviour.
+
+[Explore this research →](research.qmd)
+:::
+
+::: {.focus-card}
+### Psychological Counselling & Education
+
+Poverty-sensitive counselling, trauma-informed education, psychosocial support, and inclusive school contexts.
+
+[Explore this research →](research.qmd)
+:::
+
+::: {.focus-card}
+### Digital Behaviour & Emotion Regulation
+
+Cyberbullying, digital citizenship, interpersonal processes, and adaptive or maladaptive emotion-regulation patterns.
+
+[Explore this research →](research.qmd)
+:::
+
+::: {.focus-card}
+### Sport & Performance Psychology
+
+Psychological functioning in athletes, performance, mindfulness-based interventions, and football psychology.
+
+[Explore this research →](research.qmd)
+:::
+
+:::
+:::
+:::
+
+::: {.home-section .approach-section}
+::: {.home-shell}
+
+::: {.section-kicker}
+RESEARCH APPROACH
+:::
+
+## I focus not only on findings, but also on the quality of the research process.
+
+::: {.approach-grid}
+
+::: {.approach-item}
+**01 — Methodological rigour**
+
+Strong research designs, transparent analytical decisions, and appropriate statistical methods.
+:::
+
+::: {.approach-item}
+**02 — Open and reproducible science**
+
+Research workflows, analytical code, and scientific outputs designed to be as transparent and reproducible as possible.
+:::
+
+::: {.approach-item}
+**03 — Knowledge with practical value**
+
+Translating scientific findings into meaningful applications for psychological practice, society, and performance settings.
+:::
+
+:::
+:::
+:::
+
+::: {.home-cta}
+::: {.home-shell .cta-inner}
+
+::: {.cta-copy}
+### Explore my work in more detail
+
+Browse publications, ongoing projects, and research areas across the website.
+:::
+
+::: {.cta-actions}
+[Projects](projects.qmd){.home-button .home-button-light}
+[Contact](contact.qmd){.home-button .home-button-outline-light}
+:::
+
+:::
+:::
+
+:::

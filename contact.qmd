@@ -1,0 +1,123 @@
+---
+page-layout: custom
+toc: false
+pagetitle: "İletişim | Dr. Hasan Sarıcı"
+description-meta: "Dr. Hasan Sarıcı ile akademik iletişim, araştırma iş birlikleri ve profesyonel bağlantılar için iletişim bilgileri."
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r}
+#| label: contact-setup
+profile <- read.csv(
+  "data/profile.csv",
+  stringsAsFactors = FALSE,
+  check.names = FALSE,
+  fileEncoding = "UTF-8"
+)
+profile <- profile[1, ]
+```
+
+::: {.contact-page}
+
+::: {.contact-hero}
+::: {.contact-shell}
+
+::: {.section-kicker}
+İLETİŞİM
+:::
+
+# Bağlantı kurmak için
+
+::: {.contact-lead}
+Akademik iş birlikleri, araştırma projeleri, bilimsel iletişim ve profesyonel çalışmalar için benimle doğrudan iletişime geçebilirsiniz.
+:::
+
+:::
+:::
+
+::: {.contact-main}
+::: {.contact-shell}
+
+::: {.contact-grid}
+
+::: {.contact-primary}
+
+## İletişim bilgileri
+
+::: {.contact-item}
+::: {.contact-label}
+E-POSTA
+:::
+
+### [`r profile$email`](mailto:`r profile$email`)
+
+Akademik ve profesyonel yazışmalar için tercih edilen iletişim kanalı.
+:::
+
+::: {.contact-item}
+::: {.contact-label}
+ORCID
+:::
+
+### [`r profile$orcid`](https://orcid.org/`r profile$orcid`){target="_blank"}
+
+Araştırmacı kimliği ve akademik kayıt bağlantısı.
+:::
+
+:::
+
+::: {.contact-side}
+
+::: {.contact-card}
+::: {.contact-label}
+KURUM
+:::
+
+### `r profile$institution_tr`
+
+`r profile$faculty_tr`  
+`r profile$department_tr`  
+`r profile$program_tr`
+
+**`r profile$position_tr`**
+:::
+
+::: {.contact-card}
+::: {.contact-label}
+ARAŞTIRMA
+:::
+
+İklim ve çevre psikolojisi, psikolojik danışmanlık ve eğitim, dijital davranış ve duygu düzenleme ile spor ve performans psikolojisi.
+
+[Araştırma programını incele →](research.qmd)
+:::
+
+:::
+
+:::
+
+:::
+:::
+
+::: {.contact-cta}
+::: {.contact-shell .contact-cta-inner}
+
+:::
+### Akademik çalışmalar
+
+Güncel araştırma çıktıları, projeler ve akademik özgeçmiş için ilgili sayfaları inceleyebilirsiniz.
+:::
+
+::: {.contact-cta-links}
+[Yayınlar](publications.qmd){.home-button .home-button-light}
+[Projeler](projects.qmd){.home-button .home-button-outline-light}
+[CV](cv.qmd){.home-button .home-button-outline-light}
+:::
+
+:::
+:::
+
+:::

@@ -1,0 +1,216 @@
+---
+page-layout: custom
+toc: false
+pagetitle: "Araştırmalar | Dr. Hasan Sarıcı"
+description-meta: "Dr. Hasan Sarıcı’nın araştırma programı, araştırma alanları ve bilimsel yaklaşımı."
+---
+
+::: {.research-page}
+
+::: {.research-hero}
+::: {.research-shell}
+
+::: {.section-kicker}
+ARAŞTIRMALAR
+:::
+
+# Psikolojik süreçleri çevresel, sosyal, eğitsel ve performans bağlamları içinde inceliyorum.
+
+::: {.research-lead}
+Araştırma programım, bireysel psikolojik süreçlerin içinde bulundukları bağlamlarla nasıl etkileşime girdiğini anlamaya odaklanıyor.
+:::
+
+::: {.research-intro}
+Çalışmalarım iklim değişikliği ve ruh sağlığı, çevre yanlısı davranışlar, psikolojik danışmanlık ve eğitim, dijital davranışlar, duygu düzenleme ve spor psikolojisi gibi alanları kapsıyor. Bu konuları birbirinden kopuk araştırma başlıkları olarak değil, psikolojik süreçlerin farklı yaşam bağlamlarında nasıl biçimlendiğini açıklamaya yönelik bütünleşik bir araştırma programının parçaları olarak ele alıyorum.
+:::
+
+:::
+:::
+
+::: {.research-section}
+::: {.research-shell}
+
+::: {.section-kicker}
+ARAŞTIRMA PROGRAMI
+:::
+
+## Dört birbiriyle ilişkili araştırma hattı
+
+::: {.research-program-grid}
+
+::: {.research-program-card}
+::: {.research-number}
+01
+:::
+
+### İklim ve Çevre Psikolojisi
+
+İklim değişikliğinin psikolojik sonuçları, iklim kaygısı, çevresel tehditlerin ruh sağlığıyla ilişkisi ve çevre yanlısı davranışların psikolojik belirleyicileri bu araştırma hattının merkezinde yer alıyor.
+
+**Başlıca temalar**
+
+- İklim kaygısı ve iklim duyguları
+- İklim değişikliği ve ruh sağlığı
+- Çevre yanlısı davranışlar
+- Psikolojik mekanizmalar
+- Sosyal normlar ve çevresel davranış
+:::
+
+::: {.research-program-card}
+::: {.research-number}
+02
+:::
+
+### Psikolojik Danışmanlık, Eğitim ve Psikososyal Bağlamlar
+
+Bu hat, psikolojik danışmanlık ve eğitim süreçlerinin yoksulluk, travma ve sosyal dezavantaj gibi bağlamsal koşullarla nasıl kesiştiğine odaklanıyor.
+
+**Başlıca temalar**
+
+- Yoksulluk duyarlı okul psikolojik danışmanlığı
+- Travmaya duyarlı eğitim
+- Okul temelli psikososyal destek
+- Öğretmen mesleki gelişimi
+- Kapsayıcı eğitim ve okul bağlamları
+:::
+
+::: {.research-program-card}
+::: {.research-number}
+03
+:::
+
+### Dijital Davranış ve Duygu Düzenleme
+
+Dijital ortamlardaki davranışların psikolojik ve kişilerarası süreçlerle ilişkisini; aynı zamanda bireylerin duygu düzenleme örüntülerinin işlevsel ve işlevsiz sonuçlarını inceliyorum.
+
+**Başlıca temalar**
+
+- Siber zorbalık ve siber mağduriyet
+- Dijital vatandaşlık
+- Empati ve psikolojik dayanıklılık
+- Bilişsel duygu düzenleme
+- Uyumsal ve uyumsuz psikolojik süreçler
+:::
+
+::: {.research-program-card}
+::: {.research-number}
+04
+:::
+
+### Spor ve Performans Psikolojisi
+
+Sporcuların psikolojik işlevselliği, psikolojik performansı ve müdahale temelli yaklaşımlar bu araştırma hattını oluşturuyor. Akademik çalışmaları saha deneyimiyle ilişkilendirmeyi önemsiyorum.
+
+**Başlıca temalar**
+
+- Sporcu psikolojisi
+- Psikolojik performans
+- Mindfulness temelli müdahaleler
+- Psikolojik işlevsellik ve psikolojik sıkıntı
+- Futbol ortamında psikolojik süreçler
+:::
+
+:::
+:::
+:::
+
+::: {.research-section .research-soft}
+::: {.research-shell}
+
+::: {.section-kicker}
+YÖNTEMSEL YAKLAŞIM
+:::
+
+## Araştırma sorusuna göre yöntem seçmek
+
+::: {.research-method-grid}
+
+::: {.research-method-item}
+### Nicel Araştırma
+
+Çok değişkenli modeller, aracılık ve düzenleyicilik analizleri, psikometrik değerlendirmeler ve çok düzeyli yaklaşımlar.
+:::
+
+::: {.research-method-item}
+### Nitel Araştırma
+
+Özellikle bağlamsal ve deneyimsel süreçleri anlamaya yönelik vaka çalışması ve nitel analiz yaklaşımları.
+:::
+
+::: {.research-method-item}
+### Kanıt Sentezi
+
+Sistematik derleme, meta-analiz ve kanıt haritalama yöntemleriyle dağınık bulguların bütünleştirilmesi.
+:::
+
+::: {.research-method-item}
+### Yeniden Üretilebilir Araştırma
+
+R tabanlı analiz süreçleri, açık bilim uygulamaları ve analiz kararlarının mümkün olduğunca şeffaf biçimde raporlanması.
+:::
+
+:::
+:::
+:::
+
+::: {.research-section}
+::: {.research-shell}
+
+::: {.section-kicker}
+ULUSLARARASI ARAŞTIRMA AĞLARI
+:::
+
+## COST Action çalışma grupları
+
+::: {.network-grid}
+
+::: {.network-card}
+### PEACE · CA23129
+
+**Peace Research Community Europe**
+
+WG3 · Local Peace
+:::
+
+::: {.network-card}
+### Go2CHANGE · CA24113
+
+**Global Network on Cultural Heritage Conservation Under Climate Change**
+
+WG1 · Climate Risk Assessment  
+WG4 · Community Involvement and Capacity Building  
+WG5 · Urban Living Lab Heritage Cities
+:::
+
+::: {.network-card}
+### SMART-RURAL · CA24170
+
+**Building Resilient Rural Communities through Synergy of Traditional Knowledge and Technological Innovation**
+
+WG1 · Traditional Knowledge Systems and Rural Resilience  
+WG3 · Integrated Resilience Assessment and Monitoring  
+WG4 · Knowledge Dissemination and Capacity Building
+:::
+
+:::
+:::
+:::
+
+::: {.research-cta}
+::: {.research-shell .research-cta-inner}
+
+::: {.research-cta-copy}
+### Araştırma çıktıları
+
+Yayımlanmış çalışmalarımı, değerlendirme sürecindeki araştırmaları ve devam eden projeleri ilgili sayfalarda inceleyebilirsiniz.
+:::
+
+::: {.research-cta-actions}
+[Yayınlar](publications.qmd){.home-button .home-button-light}
+[Projeler](projects.qmd){.home-button .home-button-outline-light}
+:::
+
+:::
+:::
+
+:::

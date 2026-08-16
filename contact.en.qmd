@@ -1,0 +1,123 @@
+---
+page-layout: custom
+toc: false
+pagetitle: "Contact | Dr. Hasan Sarıcı"
+description-meta: "Contact information for academic correspondence, research collaboration, and professional communication with Dr. Hasan Sarıcı."
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r}
+#| label: contact-setup
+profile <- read.csv(
+  "data/profile.csv",
+  stringsAsFactors = FALSE,
+  check.names = FALSE,
+  fileEncoding = "UTF-8"
+)
+profile <- profile[1, ]
+```
+
+::: {.contact-page}
+
+::: {.contact-hero}
+::: {.contact-shell}
+
+::: {.section-kicker}
+CONTACT
+:::
+
+# Get in touch
+
+::: {.contact-lead}
+For academic collaboration, research projects, scholarly communication, and professional enquiries, you can contact me directly.
+:::
+
+:::
+:::
+
+::: {.contact-main}
+::: {.contact-shell}
+
+::: {.contact-grid}
+
+::: {.contact-primary}
+
+## Contact details
+
+::: {.contact-item}
+::: {.contact-label}
+EMAIL
+:::
+
+### [`r profile$email`](mailto:`r profile$email`)
+
+Preferred channel for academic and professional correspondence.
+:::
+
+::: {.contact-item}
+::: {.contact-label}
+ORCID
+:::
+
+### [`r profile$orcid`](https://orcid.org/`r profile$orcid`){target="_blank"}
+
+Researcher identifier and academic record.
+:::
+
+:::
+
+::: {.contact-side}
+
+::: {.contact-card}
+::: {.contact-label}
+AFFILIATION
+:::
+
+### `r profile$institution_en`
+
+`r profile$faculty_en`  
+`r profile$department_en`  
+`r profile$program_en`
+
+**`r profile$position_en`**
+:::
+
+::: {.contact-card}
+::: {.contact-label}
+RESEARCH
+:::
+
+Climate and environmental psychology, psychological counselling and education, digital behaviour and emotion regulation, and sport and performance psychology.
+
+[Explore my research programme →](research.qmd)
+:::
+
+:::
+
+:::
+
+:::
+:::
+
+::: {.contact-cta}
+::: {.contact-shell .contact-cta-inner}
+
+:::
+### Academic work
+
+Explore current research outputs, projects, and my academic curriculum vitae.
+:::
+
+::: {.contact-cta-links}
+[Publications](publications.qmd){.home-button .home-button-light}
+[Projects](projects.qmd){.home-button .home-button-outline-light}
+[CV](cv.qmd){.home-button .home-button-outline-light}
+:::
+
+:::
+:::
+
+:::

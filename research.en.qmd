@@ -1,0 +1,216 @@
+---
+page-layout: custom
+toc: false
+pagetitle: "Research | Dr. Hasan Sarıcı"
+description-meta: "Research programme, research areas, and scientific approach of Dr. Hasan Sarıcı."
+---
+
+::: {.research-page}
+
+::: {.research-hero}
+::: {.research-shell}
+
+::: {.section-kicker}
+RESEARCH
+:::
+
+# I study psychological processes within environmental, social, educational, and performance contexts.
+
+::: {.research-lead}
+My research programme focuses on understanding how individual psychological processes interact with the contexts in which they occur.
+:::
+
+::: {.research-intro}
+My work spans climate change and mental health, pro-environmental behaviour, psychological counselling and education, digital behaviour, emotion regulation, and sport psychology. Rather than treating these as isolated topics, I approach them as interconnected components of a broader programme examining how psychological processes are shaped across different life contexts.
+:::
+
+:::
+:::
+
+::: {.research-section}
+::: {.research-shell}
+
+::: {.section-kicker}
+RESEARCH PROGRAMME
+:::
+
+## Four interconnected lines of research
+
+::: {.research-program-grid}
+
+::: {.research-program-card}
+::: {.research-number}
+01
+:::
+
+### Climate & Environmental Psychology
+
+This line of research examines the psychological consequences of climate change, climate anxiety, mental-health responses to environmental threats, and psychological determinants of pro-environmental behaviour.
+
+**Key themes**
+
+- Climate anxiety and climate emotions
+- Climate change and mental health
+- Pro-environmental behaviour
+- Psychological mechanisms
+- Social norms and environmental behaviour
+:::
+
+::: {.research-program-card}
+::: {.research-number}
+02
+:::
+
+### Psychological Counselling, Education & Psychosocial Contexts
+
+This line focuses on how counselling and educational processes intersect with contextual conditions such as poverty, trauma, and social disadvantage.
+
+**Key themes**
+
+- Poverty-sensitive school counselling
+- Trauma-informed education
+- School-based psychosocial support
+- Teacher professional development
+- Inclusive education and school contexts
+:::
+
+::: {.research-program-card}
+::: {.research-number}
+03
+:::
+
+### Digital Behaviour & Emotion Regulation
+
+I examine psychological and interpersonal processes associated with behaviour in digital environments, alongside adaptive and maladaptive patterns of emotion regulation.
+
+**Key themes**
+
+- Cyberbullying and cybervictimisation
+- Digital citizenship
+- Empathy and resilience
+- Cognitive emotion regulation
+- Adaptive and maladaptive psychological processes
+:::
+
+::: {.research-program-card}
+::: {.research-number}
+04
+:::
+
+### Sport & Performance Psychology
+
+This research line focuses on psychological functioning in athletes, psychological performance, and intervention-based approaches. I aim to connect academic research with the realities of performance environments.
+
+**Key themes**
+
+- Athlete psychology
+- Psychological performance
+- Mindfulness-based interventions
+- Psychological functioning and distress
+- Psychological processes in football
+:::
+
+:::
+:::
+:::
+
+::: {.research-section .research-soft}
+::: {.research-shell}
+
+::: {.section-kicker}
+METHODOLOGICAL APPROACH
+:::
+
+## Selecting methods to fit the research question
+
+::: {.research-method-grid}
+
+::: {.research-method-item}
+### Quantitative Research
+
+Multivariable models, mediation and moderation analyses, psychometric evaluation, and multilevel approaches.
+:::
+
+::: {.research-method-item}
+### Qualitative Research
+
+Case study and qualitative approaches for understanding contextual and experiential processes.
+:::
+
+::: {.research-method-item}
+### Evidence Synthesis
+
+Systematic review, meta-analysis, and evidence-mapping approaches for integrating fragmented findings.
+:::
+
+::: {.research-method-item}
+### Reproducible Research
+
+R-based analytical workflows, open-science practices, and transparent reporting of analytical decisions whenever possible.
+:::
+
+:::
+:::
+:::
+
+::: {.research-section}
+::: {.research-shell}
+
+::: {.section-kicker}
+INTERNATIONAL RESEARCH NETWORKS
+:::
+
+## COST Action working groups
+
+::: {.network-grid}
+
+::: {.network-card}
+### PEACE · CA23129
+
+**Peace Research Community Europe**
+
+WG3 · Local Peace
+:::
+
+::: {.network-card}
+### Go2CHANGE · CA24113
+
+**Global Network on Cultural Heritage Conservation Under Climate Change**
+
+WG1 · Climate Risk Assessment  
+WG4 · Community Involvement and Capacity Building  
+WG5 · Urban Living Lab Heritage Cities
+:::
+
+::: {.network-card}
+### SMART-RURAL · CA24170
+
+**Building Resilient Rural Communities through Synergy of Traditional Knowledge and Technological Innovation**
+
+WG1 · Traditional Knowledge Systems and Rural Resilience  
+WG3 · Integrated Resilience Assessment and Monitoring  
+WG4 · Knowledge Dissemination and Capacity Building
+:::
+
+:::
+:::
+:::
+
+::: {.research-cta}
+::: {.research-shell .research-cta-inner}
+
+::: {.research-cta-copy}
+### Research outputs
+
+Explore my published work, manuscripts in progress, and ongoing research projects across the website.
+:::
+
+::: {.research-cta-actions}
+[Publications](publications.qmd){.home-button .home-button-light}
+[Projects](projects.qmd){.home-button .home-button-outline-light}
+:::
+
+:::
+:::
+
+:::

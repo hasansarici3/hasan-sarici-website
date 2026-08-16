@@ -1,0 +1,142 @@
+---
+page-layout: custom
+toc: false
+description: "Dr. Hasan Sarıcı’nın araştırmaları, akademik çalışmaları ve profesyonel faaliyetleri."
+pagetitle: "Dr. Hasan Sarıcı | Akademisyen, Psikolojik Danışman ve Araştırmacı"
+description-meta: "Dr. Hasan Sarıcı’nın araştırmaları, yayınları, projeleri ve akademik çalışmaları."
+---
+
+::: {.home-page}
+
+::: {.home-hero}
+::: {.home-shell}
+
+::: {.hero-eyebrow}
+PSİKOLOJİ · ARAŞTIRMA · UYGULAMA
+:::
+
+# Dr. Hasan Sarıcı
+
+::: {.hero-role}
+**Akademisyen · Psikolojik Danışman · Araştırmacı**
+:::
+
+::: {.hero-lead}
+İnsanların psikolojik süreçlerini; çevresel, kültürel ve sportif bağlamlarla birlikte anlamaya odaklanıyorum.
+:::
+
+::: {.hero-copy}
+Çalışmalarım iklim kaygısı, psikolojik mekanizmalar, çevre yanlısı davranışlar, kültürlerarası psikoloji ve spor/futbol psikolojisi üzerinde yoğunlaşıyor. Araştırmalarımda yöntemsel titizliği, açık ve yeniden üretilebilir bilimi ve uygulamaya aktarılabilir çıktıları birlikte önemsiyorum.
+:::
+
+::: {.hero-actions}
+[Araştırmalarımı İncele](research.qmd){.home-button .home-button-primary}
+[Yayınlar](publications.qmd){.home-button}
+[CV](cv.qmd){.home-button .home-button-quiet}
+:::
+
+:::
+:::
+
+::: {.home-section}
+::: {.home-shell}
+
+::: {.section-kicker}
+ARAŞTIRMA ODAKLARI
+:::
+
+## Psikolojik süreçleri bağlam içinde incelemek
+
+::: {.section-intro}
+Araştırma programım, bireysel psikolojik süreçlerle çevresel, sosyal, eğitsel ve performans bağlamları arasındaki ilişkileri inceleyen dört birbiriyle bağlantılı hat etrafında gelişiyor.
+:::
+
+::: {.focus-grid .focus-grid-four}
+
+::: {.focus-card}
+### İklim ve Çevre Psikolojisi
+
+İklim kaygısı, iklim duyguları, çevresel tehditlerin psikolojik sonuçları ve çevre yanlısı davranışlar.
+
+[Araştırma hattını incele →](research.qmd)
+:::
+
+::: {.focus-card}
+### Psikolojik Danışmanlık ve Eğitim
+
+Yoksulluk duyarlı psikolojik danışmanlık, travmaya duyarlı eğitim, psikososyal destek ve kapsayıcı okul bağlamları.
+
+[Araştırma hattını incele →](research.qmd)
+:::
+
+::: {.focus-card}
+### Dijital Davranış ve Duygu Düzenleme
+
+Siber zorbalık, dijital vatandaşlık, kişilerarası süreçler ve uyumsal ya da uyumsuz duygu düzenleme örüntüleri.
+
+[Araştırma hattını incele →](research.qmd)
+:::
+
+::: {.focus-card}
+### Spor ve Performans Psikolojisi
+
+Sporcularda psikolojik işlevsellik, performans, mindfulness temelli müdahaleler ve futbol psikolojisi.
+
+[Araştırma hattını incele →](research.qmd)
+:::
+
+:::
+:::
+:::
+
+::: {.home-section .approach-section}
+::: {.home-shell}
+
+::: {.section-kicker}
+ÇALIŞMA YAKLAŞIMI
+:::
+
+## Araştırmada yalnızca sonuca değil, sürecin kalitesine de odaklanıyorum.
+
+::: {.approach-grid}
+
+::: {.approach-item}
+**01 — Yöntemsel titizlik**
+
+Güçlü araştırma tasarımı, şeffaf analiz kararları ve uygun istatistiksel yöntemler.
+:::
+
+::: {.approach-item}
+**02 — Açık ve yeniden üretilebilir bilim**
+
+Analiz kodlarının, araştırma süreçlerinin ve bilimsel çıktıların mümkün olduğunca izlenebilir olması.
+:::
+
+::: {.approach-item}
+**03 — Uygulanabilir bilgi**
+
+Akademik bulguların psikolojik danışmanlık, toplum ve performans ortamlarına anlamlı biçimde aktarılması.
+:::
+
+:::
+:::
+:::
+
+::: {.home-cta}
+::: {.home-shell .cta-inner}
+
+::: {.cta-copy}
+### Çalışmalarımı daha ayrıntılı inceleyin
+
+Yayınlar, devam eden projeler ve araştırma alanlarına site üzerinden erişebilirsiniz.
+:::
+
+::: {.cta-actions}
+[Projeler](projects.qmd){.home-button .home-button-light}
+[İletişim](contact.qmd){.home-button .home-button-outline-light}
+:::
+
+:::
+:::
+
+:::

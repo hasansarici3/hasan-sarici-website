@@ -1,0 +1,1398 @@
+/* css styles */
+
+/* CUSTOM LANGUAGE SWITCHER */
+
+.language-switcher-nav {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  white-space: nowrap;
+}
+
+.language-inline {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0 0.5rem;
+}
+
+.language-inline .lang-link,
+.language-inline .lang-active {
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+}
+
+.language-inline .lang-active {
+  font-weight: 700;
+}
+
+.language-inline .lang-link {
+  opacity: 0.68;
+}
+
+.language-inline .lang-link:hover {
+  opacity: 1;
+}
+
+.language-separator {
+  opacity: 0.35;
+  font-size: 0.8rem;
+}
+
+/* HASAN SARICI HOMEPAGE V1 */
+
+:root {
+  --hs-ink: #20262d;
+  --hs-muted: #626b73;
+  --hs-border: #dfe3e6;
+  --hs-bg: #fbfbfa;
+  --hs-soft: #f3f4f3;
+  --hs-accent: #24496f;
+  --hs-dark: #172331;
+}
+
+body {
+  color: var(--hs-ink);
+  background: var(--hs-bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+.navbar {
+  border-bottom: 1px solid rgba(32, 38, 45, 0.08);
+  box-shadow: none !important;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  letter-spacing: -0.015em;
+}
+
+.home-page {
+  width: 100%;
+  overflow: hidden;
+}
+
+.home-shell {
+  width: min(1180px, calc(100% - 3rem));
+  margin: 0 auto;
+}
+
+.home-hero {
+  padding: clamp(5rem, 10vw, 8.5rem) 0 clamp(4.5rem, 8vw, 7rem);
+  border-bottom: 1px solid var(--hs-border);
+}
+
+.hero-eyebrow,
+.section-kicker {
+  margin-bottom: 1.4rem;
+  color: var(--hs-accent);
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+}
+
+.home-hero h1 {
+  max-width: 1000px;
+  margin: 0 0 1.2rem;
+  font-size: clamp(3.4rem, 7.3vw, 6.8rem);
+  line-height: 0.98;
+  letter-spacing: -0.055em;
+  font-weight: 650;
+}
+
+.hero-role {
+  margin-bottom: 2.4rem;
+  font-size: clamp(1rem, 1.4vw, 1.2rem);
+  color: var(--hs-muted);
+}
+
+.hero-lead {
+  max-width: 900px;
+  margin-bottom: 1.4rem;
+  font-size: clamp(1.5rem, 2.5vw, 2.25rem);
+  line-height: 1.3;
+  letter-spacing: -0.025em;
+}
+
+.hero-copy {
+  max-width: 780px;
+  color: var(--hs-muted);
+  font-size: 1.06rem;
+  line-height: 1.75;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 2.7rem;
+}
+
+.home-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 46px;
+  padding: 0.72rem 1.2rem;
+  border: 1px solid var(--hs-ink);
+  border-radius: 3px;
+  color: var(--hs-ink);
+  font-size: 0.91rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 140ms ease, background-color 140ms ease, color 140ms ease;
+}
+
+.home-button:hover {
+  transform: translateY(-1px);
+  color: var(--hs-ink);
+  background: var(--hs-soft);
+}
+
+.home-button-primary {
+  border-color: var(--hs-dark);
+  background: var(--hs-dark);
+  color: #ffffff;
+}
+
+.home-button-primary:hover {
+  background: var(--hs-accent);
+  color: #ffffff;
+}
+
+.home-button-quiet {
+  border-color: transparent;
+}
+
+.home-section {
+  padding: clamp(4.5rem, 8vw, 7rem) 0;
+}
+
+.home-section h2 {
+  max-width: 850px;
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 3.4rem);
+  line-height: 1.12;
+  letter-spacing: -0.04em;
+}
+
+.section-intro {
+  max-width: 760px;
+  margin-top: 1.5rem;
+  color: var(--hs-muted);
+  font-size: 1.06rem;
+  line-height: 1.7;
+}
+
+.focus-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+.focus-card {
+  min-height: 280px;
+  padding: 2rem 0.4rem 1rem 0;
+  border-top: 2px solid var(--hs-ink);
+}
+
+.focus-card h3 {
+  margin: 0 0 1.2rem;
+  font-size: 1.3rem;
+  letter-spacing: -0.02em;
+}
+
+.focus-card p {
+  color: var(--hs-muted);
+  line-height: 1.7;
+}
+
+.focus-card a {
+  color: var(--hs-ink);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.focus-card a:hover {
+  color: var(--hs-accent);
+}
+
+.approach-section {
+  background: var(--hs-soft);
+}
+
+.approach-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2.2rem;
+  margin-top: 4rem;
+}
+
+.approach-item {
+  padding-top: 1.4rem;
+  border-top: 1px solid #cbd0d4;
+}
+
+.approach-item p {
+  color: var(--hs-muted);
+  line-height: 1.7;
+}
+
+.home-cta {
+  padding: clamp(4rem, 7vw, 6rem) 0;
+  background: var(--hs-dark);
+  color: #ffffff;
+}
+
+.cta-inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1.6fr) minmax(260px, 0.7fr);
+  gap: 3rem;
+  align-items: center;
+}
+
+.cta-copy h3 {
+  margin-top: 0;
+  font-size: clamp(1.8rem, 3vw, 2.7rem);
+  letter-spacing: -0.035em;
+}
+
+.cta-copy p {
+  max-width: 680px;
+  margin-bottom: 0;
+  color: rgba(255,255,255,0.72);
+}
+
+.cta-actions {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.home-button-light {
+  border-color: #ffffff;
+  background: #ffffff;
+  color: var(--hs-dark);
+}
+
+.home-button-light:hover {
+  background: #eef0f2;
+  color: var(--hs-dark);
+}
+
+.home-button-outline-light {
+  border-color: rgba(255,255,255,0.65);
+  color: #ffffff;
+}
+
+.home-button-outline-light:hover {
+  background: rgba(255,255,255,0.1);
+  color: #ffffff;
+}
+
+@media (max-width: 900px) {
+  .focus-grid,
+  .approach-grid {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+
+  .focus-card {
+    min-height: auto;
+  }
+
+  .cta-inner {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-actions {
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 600px) {
+  .home-shell {
+    width: min(100% - 2rem, 1180px);
+  }
+
+  .home-hero {
+    padding-top: 4rem;
+  }
+
+  .home-hero h1 {
+    font-size: clamp(3rem, 16vw, 4.5rem);
+  }
+
+  .hero-actions,
+  .cta-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .home-button {
+    width: 100%;
+  }
+}
+
+/* HASAN SARICI ABOUT PAGE V1 */
+
+.about-page {
+  width: 100%;
+}
+
+.about-shell {
+  width: min(1080px, calc(100% - 3rem));
+  margin: 0 auto;
+}
+
+.about-hero {
+  padding: clamp(5rem, 9vw, 8rem) 0 clamp(4.5rem, 8vw, 7rem);
+  border-bottom: 1px solid var(--hs-border);
+}
+
+.about-hero h1 {
+  max-width: 950px;
+  margin: 0;
+  font-size: clamp(2.8rem, 5.5vw, 5.2rem);
+  line-height: 1.04;
+  letter-spacing: -0.05em;
+}
+
+.about-lead {
+  max-width: 850px;
+  margin-top: 2.2rem;
+  font-size: clamp(1.35rem, 2vw, 1.85rem);
+  line-height: 1.45;
+}
+
+.about-intro {
+  max-width: 820px;
+  margin-top: 1.6rem;
+  color: var(--hs-muted);
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.about-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.4rem;
+  margin-top: 2.4rem;
+}
+
+.about-link {
+  color: var(--hs-ink);
+  font-size: 0.9rem;
+  font-weight: 650;
+  text-decoration: none;
+  border-bottom: 1px solid var(--hs-ink);
+}
+
+.about-section {
+  padding: clamp(4.5rem, 8vw, 7rem) 0;
+}
+
+.about-soft {
+  background: var(--hs-soft);
+}
+
+.about-section h2 {
+  max-width: 820px;
+  margin-bottom: 3rem;
+  font-size: clamp(2rem, 3.5vw, 3.1rem);
+  letter-spacing: -0.04em;
+}
+
+.education-list {
+  border-top: 1px solid var(--hs-border);
+}
+
+.education-item {
+  display: grid;
+  grid-template-columns: 190px 1fr;
+  gap: 2.5rem;
+  padding: 2.3rem 0;
+  border-bottom: 1px solid var(--hs-border);
+}
+
+.education-item h3 {
+  margin-top: 0;
+  font-size: 1.3rem;
+}
+
+.education-item p {
+  color: var(--hs-muted);
+}
+
+.about-three-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2rem;
+}
+
+.about-card {
+  padding-top: 1.5rem;
+  border-top: 2px solid var(--hs-ink);
+}
+
+.about-card h3 {
+  margin-top: 0;
+  margin-bottom: 1.4rem;
+}
+
+.about-card p {
+  color: var(--hs-muted);
+  line-height: 1.7;
+}
+
+.about-split {
+  display: grid;
+  grid-template-columns: minmax(0, 1.6fr) minmax(250px, 0.7fr);
+  gap: 4rem;
+}
+
+.about-split > div:first-child {
+  font-size: 1.07rem;
+  line-height: 1.8;
+  color: var(--hs-muted);
+}
+
+.fact-panel {
+  padding: 2rem;
+  background: var(--hs-dark);
+  color: white;
+}
+
+.fact-panel p {
+  margin-bottom: 1.5rem;
+  color: rgba(255,255,255,.76);
+}
+
+.fact-panel strong {
+  color: white;
+}
+
+@media (max-width: 850px) {
+  .about-three-grid,
+  .about-split {
+    grid-template-columns: 1fr;
+  }
+
+  .education-item {
+    grid-template-columns: 1fr;
+    gap: 0.4rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-shell {
+    width: min(100% - 2rem, 1080px);
+  }
+}
+
+/* HASAN SARICI RESEARCH PAGE V1 */
+
+.research-page {
+  width: 100%;
+}
+
+.research-shell {
+  width: min(1120px, calc(100% - 3rem));
+  margin: 0 auto;
+}
+
+.research-hero {
+  padding: clamp(5rem, 9vw, 8rem) 0 clamp(4.5rem, 8vw, 7rem);
+  border-bottom: 1px solid var(--hs-border);
+}
+
+.research-hero h1 {
+  max-width: 1000px;
+  margin: 0;
+  font-size: clamp(2.9rem, 5.7vw, 5.4rem);
+  line-height: 1.03;
+  letter-spacing: -0.052em;
+}
+
+.research-lead {
+  max-width: 850px;
+  margin-top: 2rem;
+  font-size: clamp(1.35rem, 2vw, 1.9rem);
+  line-height: 1.45;
+}
+
+.research-intro {
+  max-width: 820px;
+  margin-top: 1.6rem;
+  color: var(--hs-muted);
+  font-size: 1.06rem;
+  line-height: 1.8;
+}
+
+.research-section {
+  padding: clamp(4.5rem, 8vw, 7rem) 0;
+}
+
+.research-soft {
+  background: var(--hs-soft);
+}
+
+.research-section h2 {
+  max-width: 850px;
+  margin: 0 0 3.5rem;
+  font-size: clamp(2rem, 3.8vw, 3.3rem);
+  line-height: 1.12;
+  letter-spacing: -0.04em;
+}
+
+.research-program-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+}
+
+.research-program-card {
+  padding: 2rem;
+  border: 1px solid var(--hs-border);
+  background: #ffffff;
+}
+
+.research-number {
+  margin-bottom: 2rem;
+  color: var(--hs-accent);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+.research-program-card h3 {
+  margin-top: 0;
+  margin-bottom: 1.1rem;
+  font-size: 1.55rem;
+  letter-spacing: -0.025em;
+}
+
+.research-program-card p,
+.research-program-card li {
+  color: var(--hs-muted);
+  line-height: 1.7;
+}
+
+.research-program-card ul {
+  padding-left: 1.1rem;
+  margin-bottom: 0;
+}
+
+.research-method-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.6rem;
+}
+
+.research-method-item {
+  padding-top: 1.4rem;
+  border-top: 2px solid var(--hs-ink);
+}
+
+.research-method-item h3 {
+  font-size: 1.15rem;
+}
+
+.research-method-item p {
+  color: var(--hs-muted);
+  line-height: 1.7;
+}
+
+.network-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.8rem;
+}
+
+.network-card {
+  padding: 1.8rem 0;
+  border-top: 1px solid var(--hs-ink);
+}
+
+.network-card h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+.network-card p {
+  color: var(--hs-muted);
+  line-height: 1.65;
+}
+
+.research-cta {
+  padding: clamp(4rem, 7vw, 6rem) 0;
+  background: var(--hs-dark);
+  color: #ffffff;
+}
+
+.research-cta-inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) auto;
+  gap: 3rem;
+  align-items: center;
+}
+
+.research-cta-copy h3 {
+  margin-top: 0;
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+}
+
+.research-cta-copy p {
+  margin-bottom: 0;
+  color: rgba(255,255,255,.72);
+}
+
+.research-cta-actions {
+  display: flex;
+  gap: .75rem;
+  flex-wrap: wrap;
+}
+
+.focus-grid-four {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+@media (max-width: 900px) {
+  .research-program-grid,
+  .research-method-grid,
+  .network-grid,
+  .focus-grid-four {
+    grid-template-columns: 1fr;
+  }
+
+  .research-cta-inner {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .research-shell {
+    width: min(100% - 2rem, 1120px);
+  }
+
+  .research-program-card {
+    padding: 1.5rem;
+  }
+}
+
+/* HASAN SARICI PUBLICATIONS PAGE V1 */
+
+.publications-page {
+  width: 100%;
+}
+
+.publications-shell {
+  width: min(1080px, calc(100% - 3rem));
+  margin: 0 auto;
+}
+
+.publications-hero {
+  padding: clamp(5rem, 9vw, 8rem) 0 clamp(4rem, 7vw, 6rem);
+  border-bottom: 1px solid var(--hs-border);
+}
+
+.publications-hero h1 {
+  margin: 0;
+  font-size: clamp(3rem, 6vw, 5.7rem);
+  line-height: 1;
+  letter-spacing: -0.052em;
+}
+
+.publications-lead {
+  max-width: 760px;
+  margin-top: 2rem;
+  color: var(--hs-muted);
+  font-size: clamp(1.2rem, 1.8vw, 1.55rem);
+  line-height: 1.55;
+}
+
+.publication-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  max-width: 760px;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.publication-stat {
+  padding-top: 1.2rem;
+  border-top: 1px solid var(--hs-ink);
+}
+
+.publication-stat > p:first-child {
+  margin: 0 0 .35rem;
+  font-size: 2rem;
+  font-weight: 650;
+  letter-spacing: -0.04em;
+}
+
+.publication-stat p {
+  margin-bottom: 0;
+}
+
+.publications-orcid {
+  margin-top: 2.2rem;
+}
+
+.publications-orcid a {
+  color: var(--hs-ink);
+  font-weight: 650;
+  text-decoration: none;
+  border-bottom: 1px solid var(--hs-ink);
+}
+
+.publications-section {
+  padding: clamp(4.5rem, 8vw, 7rem) 0;
+}
+
+.publications-soft {
+  background: var(--hs-soft);
+}
+
+.publications-section h2 {
+  max-width: 800px;
+  margin: 0 0 3rem;
+  font-size: clamp(2rem, 3.7vw, 3.2rem);
+  letter-spacing: -0.04em;
+}
+
+.publications-note {
+  max-width: 760px;
+  margin: -1.5rem 0 3rem;
+  color: var(--hs-muted);
+  line-height: 1.7;
+}
+
+.publication-card {
+  padding: 2rem 0;
+  border-top: 1px solid var(--hs-border);
+}
+
+.publication-card:last-child {
+  border-bottom: 1px solid var(--hs-border);
+}
+
+.publication-card-top {
+  display: flex;
+  align-items: center;
+  gap: .7rem;
+  margin-bottom: 1rem;
+}
+
+.publication-year {
+  color: var(--hs-accent);
+  font-size: .78rem;
+  font-weight: 750;
+  letter-spacing: .08em;
+}
+
+.publication-tag {
+  display: inline-flex;
+  padding: .22rem .48rem;
+  border: 1px solid var(--hs-border);
+  border-radius: 2px;
+  color: var(--hs-muted);
+  font-size: .68rem;
+  font-weight: 650;
+  letter-spacing: .035em;
+  text-transform: uppercase;
+}
+
+.publication-tag-review {
+  background: var(--hs-soft);
+}
+
+.publication-card h3 {
+  max-width: 900px;
+  margin: 0 0 .8rem;
+  font-size: clamp(1.15rem, 1.9vw, 1.48rem);
+  line-height: 1.35;
+  letter-spacing: -0.018em;
+}
+
+.publication-authors {
+  margin-bottom: .45rem;
+  color: var(--hs-ink);
+  font-size: .93rem;
+}
+
+.publication-meta {
+  color: var(--hs-muted);
+  font-size: .9rem;
+  line-height: 1.6;
+}
+
+.publication-links {
+  margin-top: .8rem;
+}
+
+.publication-links a {
+  display: inline-block;
+  color: var(--hs-accent);
+  font-size: .82rem;
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+}
+
+@media (max-width: 700px) {
+  .publications-shell {
+    width: min(100% - 2rem, 1080px);
+  }
+
+  .publication-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .publication-card-top {
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+}
+
+/* HASAN SARICI PROJECTS PAGE V1 */
+
+.projects-page {
+  width: 100%;
+}
+
+.projects-shell {
+  width: min(1080px, calc(100% - 3rem));
+  margin: 0 auto;
+}
+
+.projects-hero {
+  padding: clamp(5rem, 9vw, 8rem) 0 clamp(4.5rem, 8vw, 6.5rem);
+  border-bottom: 1px solid var(--hs-border);
+}
+
+.projects-hero h1 {
+  max-width: 900px;
+  margin: 0;
+  font-size: clamp(3rem, 5.8vw, 5.5rem);
+  line-height: 1.02;
+  letter-spacing: -0.052em;
+}
+
+.projects-lead {
+  max-width: 780px;
+  margin-top: 2rem;
+  color: var(--hs-muted);
+  font-size: clamp(1.2rem, 1.8vw, 1.55rem);
+  line-height: 1.6;
+}
+
+.project-stats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  max-width: 820px;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.project-stat {
+  padding-top: 1.2rem;
+  border-top: 1px solid var(--hs-ink);
+}
+
+.project-stat > p:first-child {
+  margin: 0 0 .35rem;
+  font-size: 2rem;
+  font-weight: 650;
+  letter-spacing: -0.04em;
+}
+
+.project-stat p {
+  margin-bottom: 0;
+}
+
+.projects-section {
+  padding: clamp(4.5rem, 8vw, 7rem) 0;
+}
+
+.projects-soft {
+  background: var(--hs-soft);
+}
+
+.projects-section h2 {
+  margin: 0 0 3rem;
+  font-size: clamp(2rem, 3.8vw, 3.2rem);
+  letter-spacing: -0.04em;
+}
+
+.project-card {
+  padding: 2.5rem 0;
+  border-top: 1px solid var(--hs-border);
+}
+
+.project-card:last-child {
+  border-bottom: 1px solid var(--hs-border);
+}
+
+.project-card-header {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  margin-bottom: 1.1rem;
+}
+
+.project-status {
+  padding: .24rem .5rem;
+  border: 1px solid var(--hs-border);
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .055em;
+  text-transform: uppercase;
+}
+
+.project-year {
+  color: var(--hs-accent);
+  font-size: .75rem;
+  font-weight: 750;
+  letter-spacing: .08em;
+}
+
+.project-card h3 {
+  max-width: 900px;
+  margin: 0 0 .9rem;
+  font-size: clamp(1.35rem, 2.4vw, 1.9rem);
+  line-height: 1.3;
+  letter-spacing: -0.025em;
+}
+
+.project-area {
+  max-width: 800px;
+  color: var(--hs-muted);
+  font-size: .9rem;
+}
+
+.project-meta-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.project-meta-item {
+  padding-top: 1rem;
+  border-top: 1px solid var(--hs-border);
+  color: var(--hs-muted);
+  font-size: .9rem;
+}
+
+.project-meta-item strong {
+  color: var(--hs-ink);
+}
+
+.projects-cta {
+  padding: clamp(4rem, 7vw, 6rem) 0;
+  background: var(--hs-dark);
+  color: #fff;
+}
+
+.projects-cta-inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) auto;
+  gap: 3rem;
+  align-items: center;
+}
+
+.projects-cta-copy h3 {
+  margin-top: 0;
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+}
+
+.projects-cta-copy p {
+  margin-bottom: 0;
+  color: rgba(255,255,255,.72);
+}
+
+.projects-cta-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .75rem;
+}
+
+@media (max-width: 800px) {
+  .project-stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .project-meta-grid {
+    grid-template-columns: 1fr;
+    gap: .6rem;
+  }
+
+  .projects-cta-inner {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .projects-shell {
+    width: min(100% - 2rem, 1080px);
+  }
+
+  .project-stats {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* HASAN SARICI DYNAMIC CV V1 */
+
+.cv-page {
+  width: 100%;
+}
+
+.cv-shell {
+  width: min(1060px, calc(100% - 3rem));
+  margin: 0 auto;
+}
+
+.cv-hero {
+  padding: clamp(5rem, 9vw, 8rem) 0 clamp(4rem, 7vw, 6rem);
+  border-bottom: 1px solid var(--hs-border);
+}
+
+.cv-hero h1 {
+  margin: 0;
+  font-size: clamp(3.2rem, 6vw, 5.8rem);
+  line-height: 1;
+  letter-spacing: -0.055em;
+}
+
+.cv-role {
+  margin-top: 1.5rem;
+  font-size: clamp(1.2rem, 2vw, 1.6rem);
+  font-weight: 600;
+}
+
+.cv-affiliation {
+  margin-top: .5rem;
+  color: var(--hs-muted);
+  font-size: 1rem;
+}
+
+.cv-contact-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.4rem;
+  margin-top: 2.2rem;
+}
+
+.cv-contact-link,
+.cv-more-link a {
+  color: var(--hs-ink);
+  font-weight: 650;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+}
+
+.cv-section {
+  padding: clamp(4rem, 7vw, 6.5rem) 0;
+}
+
+.cv-soft {
+  background: var(--hs-soft);
+}
+
+.cv-chip-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .7rem;
+}
+
+.cv-chip {
+  display: inline-block;
+  padding: .65rem .9rem;
+  border: 1px solid var(--hs-border);
+  background: #fff;
+  font-size: .9rem;
+}
+
+.cv-timeline-item {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 2rem;
+  padding: 2rem 0;
+  border-top: 1px solid var(--hs-border);
+}
+
+.cv-period {
+  color: var(--hs-accent);
+  font-size: .8rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+}
+
+.cv-timeline-content h3 {
+  margin: 0 0 .7rem;
+  font-size: 1.25rem;
+}
+
+.cv-timeline-content p {
+  margin-bottom: .7rem;
+}
+
+.cv-muted {
+  color: var(--hs-muted);
+}
+
+.cv-list-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0,1fr));
+  gap: 0;
+  border-top: 1px solid var(--hs-border);
+}
+
+.cv-list-item {
+  padding: 1rem 1rem 1rem 0;
+  border-bottom: 1px solid var(--hs-border);
+}
+
+.cv-project-item,
+.cv-network-item {
+  padding: 1.8rem 0;
+  border-top: 1px solid var(--hs-border);
+}
+
+.cv-project-item h3,
+.cv-network-item h3 {
+  margin-top: 0;
+}
+
+.cv-publication-item {
+  display: grid;
+  grid-template-columns: 85px 1fr;
+  gap: 1.4rem;
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--hs-border);
+}
+
+.cv-publication-year {
+  color: var(--hs-accent);
+  font-size: .78rem;
+  font-weight: 700;
+}
+
+.cv-publication-body h3 {
+  margin: 0 0 .5rem;
+  font-size: 1.07rem;
+  line-height: 1.4;
+}
+
+.cv-publication-body p {
+  margin: .35rem 0;
+  font-size: .9rem;
+}
+
+.cv-more-link {
+  margin-top: 2rem;
+}
+
+.cv-professional-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.4rem 2.5rem;
+}
+
+.cv-professional-item {
+  padding-top: 1rem;
+  border-top: 1px solid var(--hs-border);
+}
+
+.cv-small-label {
+  margin-bottom: .4rem;
+  color: var(--hs-accent);
+  font-size: .72rem;
+  font-weight: 700;
+}
+
+.cv-two-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+
+@media (max-width: 750px) {
+  .cv-timeline-item,
+  .cv-publication-item {
+    grid-template-columns: 1fr;
+    gap: .5rem;
+  }
+
+  .cv-list-grid,
+  .cv-professional-grid,
+  .cv-two-column {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .cv-shell {
+    width: min(100% - 2rem, 1060px);
+  }
+}
+
+/* HASAN SARICI CONTACT PAGE V1 */
+
+.contact-page {
+  width: 100%;
+}
+
+.contact-shell {
+  width: min(1080px, calc(100% - 3rem));
+  margin: 0 auto;
+}
+
+.contact-hero {
+  padding: clamp(5rem, 9vw, 8rem) 0 clamp(4rem, 7vw, 6rem);
+  border-bottom: 1px solid var(--hs-border);
+}
+
+.contact-hero h1 {
+  max-width: 850px;
+  margin: 0;
+  font-size: clamp(3.3rem, 6vw, 5.8rem);
+  line-height: 1;
+  letter-spacing: -0.055em;
+}
+
+.contact-lead {
+  max-width: 760px;
+  margin-top: 2rem;
+  color: var(--hs-muted);
+  font-size: clamp(1.2rem, 1.8vw, 1.55rem);
+  line-height: 1.6;
+}
+
+.contact-main {
+  padding: clamp(4.5rem, 8vw, 7rem) 0;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(280px, .8fr);
+  gap: clamp(3rem, 7vw, 6rem);
+}
+
+.contact-primary h2 {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-size: clamp(2rem, 3.5vw, 3rem);
+  letter-spacing: -0.04em;
+}
+
+.contact-item {
+  padding: 2rem 0;
+  border-top: 1px solid var(--hs-border);
+}
+
+.contact-item:last-child {
+  border-bottom: 1px solid var(--hs-border);
+}
+
+.contact-label {
+  margin-bottom: .8rem;
+  color: var(--hs-accent);
+  font-size: .7rem;
+  font-weight: 750;
+  letter-spacing: .09em;
+}
+
+.contact-item h3 {
+  margin: 0 0 .7rem;
+  font-size: clamp(1.2rem, 2vw, 1.55rem);
+}
+
+.contact-item h3 a {
+  color: var(--hs-ink);
+  text-decoration: none;
+  border-bottom: 1px solid var(--hs-ink);
+}
+
+.contact-item p,
+.contact-card p {
+  color: var(--hs-muted);
+  line-height: 1.65;
+}
+
+.contact-card {
+  padding: 1.8rem;
+  margin-bottom: 1rem;
+  background: var(--hs-soft);
+  border: 1px solid var(--hs-border);
+}
+
+.contact-card h3 {
+  margin-top: 0;
+  font-size: 1.15rem;
+}
+
+.contact-card a {
+  color: var(--hs-accent);
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.contact-cta {
+  padding: clamp(4rem, 7vw, 6rem) 0;
+  background: var(--hs-dark);
+  color: #fff;
+}
+
+.contact-cta-inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 3rem;
+  align-items: center;
+}
+
+.contact-cta h3 {
+  margin-top: 0;
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+}
+
+.contact-cta p {
+  margin-bottom: 0;
+  color: rgba(255,255,255,.72);
+}
+
+.contact-cta-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .7rem;
+}
+
+/* Quarto global footer */
+.nav-footer {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  font-size: .82rem;
+}
+
+.nav-footer a {
+  text-decoration: none;
+}
+
+@media (max-width: 800px) {
+  .contact-grid,
+  .contact-cta-inner {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact-shell {
+    width: min(100% - 2rem, 1080px);
+  }
+}

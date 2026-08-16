@@ -1,0 +1,248 @@
+---
+page-layout: custom
+toc: false
+pagetitle: "Akademik CV | Dr. Hasan Sarıcı"
+description-meta: "Dr. Hasan Sarıcı’nın akademik özgeçmişi, eğitim, araştırma, yayın, öğretim ve profesyonel deneyimi."
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r}
+#| label: cv-setup
+source("R/cv_helpers.R")
+cv <- load_cv_data()
+profile <- cv$profile[1, ]
+```
+
+::: {.cv-page}
+
+::: {.cv-hero}
+::: {.cv-shell}
+
+::: {.section-kicker}
+AKADEMİK ÖZGEÇMİŞ
+:::
+
+# Dr. Hasan Sarıcı
+
+::: {.cv-role}
+`r profile$position_tr` · `r profile$program_tr`
+:::
+
+::: {.cv-affiliation}
+`r profile$institution_tr` · `r profile$faculty_tr` · `r profile$department_tr` · `r profile$department_tr`
+:::
+
+::: {.cv-contact-row}
+[E-posta](mailto:`r profile$email`){.cv-contact-link}
+[ORCID](https://orcid.org/`r profile$orcid`){.cv-contact-link target="_blank"}
+[Yayınlar](publications.qmd){.cv-contact-link}
+[Araştırmalar](research.qmd){.cv-contact-link}
+[PDF CV - Türkçe](assets/documents/Hasan_Sarici_Akademik_CV_TR.pdf){.cv-contact-link target="_blank"}
+[PDF CV - English](assets/documents/Hasan_Sarici_Academic_CV_EN.pdf){.cv-contact-link target="_blank"}
+:::
+
+:::
+:::
+
+::: {.cv-section}
+::: {.cv-shell}
+
+::: {.section-kicker}
+ARAŞTIRMA İLGİ ALANLARI
+:::
+
+```{r}
+#| results: asis
+render_cv_interests(cv$interests, "tr")
+```
+
+:::
+:::
+
+::: {.cv-section .cv-soft}
+::: {.cv-shell}
+
+::: {.section-kicker}
+AKADEMİK GÖREVLER
+:::
+
+```{r}
+#| results: asis
+render_cv_experience(cv$experience, "tr")
+```
+
+:::
+:::
+
+::: {.cv-section}
+::: {.cv-shell}
+
+::: {.section-kicker}
+EĞİTİM
+:::
+
+```{r}
+#| results: asis
+render_cv_education(cv$education, "tr")
+```
+
+:::
+:::
+
+::: {.cv-section .cv-soft}
+::: {.cv-shell}
+
+::: {.section-kicker}
+ARAŞTIRMA PROJELERİ
+:::
+
+```{r}
+#| results: asis
+render_cv_projects(cv$projects, "tr")
+```
+
+:::
+:::
+
+::: {.cv-section}
+::: {.cv-shell}
+
+::: {.section-kicker}
+ÖĞRETİM DENEYİMİ
+:::
+
+## Lisans dersleri · 2024–2026
+
+```{r}
+#| results: asis
+render_cv_teaching(cv$teaching, "tr")
+```
+
+:::
+:::
+
+::: {.cv-section .cv-soft}
+::: {.cv-shell}
+
+::: {.section-kicker}
+HAKEMLİ YAYINLAR
+:::
+
+```{r}
+#| results: asis
+render_cv_publications(cv$publications, "peer_reviewed", "tr")
+```
+
+::: {.cv-more-link}
+[Tüm yayınları incele →](publications.qmd)
+:::
+
+:::
+:::
+
+::: {.cv-section}
+::: {.cv-shell}
+
+::: {.section-kicker}
+DEĞERLENDİRME SÜRECİNDEKİ ÇALIŞMALAR
+:::
+
+```{r}
+#| results: asis
+render_cv_publications(cv$publications, "under_review", "tr")
+```
+
+:::
+:::
+
+::: {.cv-section .cv-soft}
+::: {.cv-shell}
+
+::: {.section-kicker}
+KİTAPLAR VE KİTAP BÖLÜMLERİ
+:::
+
+```{r}
+#| results: asis
+render_cv_publications(cv$publications, "books", "tr")
+```
+
+:::
+:::
+
+::: {.cv-section}
+::: {.cv-shell}
+
+::: {.section-kicker}
+ULUSLARARASI ARAŞTIRMA AĞLARI
+:::
+
+```{r}
+#| results: asis
+render_cv_networks(cv$networks)
+```
+
+:::
+:::
+
+::: {.cv-section .cv-soft}
+::: {.cv-shell}
+
+::: {.section-kicker}
+SERTİFİKALAR VE MESLEKİ EĞİTİMLER
+:::
+
+```{r}
+#| results: asis
+render_cv_professional(cv$professional, "certification", "tr")
+```
+
+:::
+:::
+
+::: {.cv-section}
+::: {.cv-shell}
+
+::: {.section-kicker}
+SPOR VE ANTRENÖRLÜK DENEYİMİ
+:::
+
+```{r}
+#| results: asis
+render_cv_professional(cv$professional, "coaching", "tr")
+```
+
+:::
+:::
+
+::: {.cv-section .cv-soft}
+::: {.cv-shell}
+
+::: {.cv-two-column}
+
+:::
+### Diller
+
+```{r}
+#| results: asis
+render_cv_professional(cv$professional, "language", "tr")
+```
+:::
+
+:::
+### Teknik ve Yöntemsel Beceriler
+
+```{r}
+#| results: asis
+render_cv_professional(cv$professional, "skill", "tr")
+```
+:::
+
+:::
+:::
+:::
+
+:::

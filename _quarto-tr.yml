@@ -1,0 +1,17 @@
+website:
+  navbar:
+    left:
+      - text: "Ana Sayfa"
+        href: index.qmd
+      - text: "Hakkımda"
+        href: about.qmd
+      - text: "Araştırmalar"
+        href: research.qmd
+      - text: "Yayınlar"
+        href: publications.qmd
+      - text: "Projeler"
+        href: projects.qmd
+      - text: "CV"
+        href: cv.qmd
+      - text: "İletişim"
+        href: contact.qmd

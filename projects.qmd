@@ -1,0 +1,123 @@
+---
+page-layout: custom
+toc: false
+pagetitle: "Projeler | Dr. Hasan Sarıcı"
+description-meta: "Dr. Hasan Sarıcı’nın devam eden ve tamamlanan araştırma projeleri."
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r}
+#| label: projects-setup
+source("R/projects_helpers.R")
+projects <- read_projects("data/projects.csv")
+project_stats <- project_counts(projects)
+```
+
+::: {.projects-page}
+
+::: {.projects-hero}
+::: {.projects-shell}
+
+::: {.section-kicker}
+PROJELER
+:::
+
+# Araştırmadan uygulamaya uzanan projeler
+
+::: {.projects-lead}
+Araştırma projelerim; psikososyal süreçleri, eğitim ortamlarını ve psikolojik işlevselliği gerçek yaşam bağlamları içerisinde anlamaya odaklanıyor.
+:::
+
+::: {.project-stats}
+
+::: {.project-stat}
+`r project_stats$total`
+
+**Kayıtlı proje**
+:::
+
+::: {.project-stat}
+`r project_stats$ongoing`
+
+**Devam eden**
+:::
+
+::: {.project-stat}
+`r project_stats$completed`
+
+**Tamamlanan**
+:::
+
+::: {.project-stat}
+`r project_stats$externally_funded`
+
+**Dış destekli**
+:::
+
+:::
+:::
+:::
+
+::: {.projects-section}
+::: {.projects-shell}
+
+::: {.section-kicker}
+DEVAM EDEN
+:::
+
+## Güncel araştırma projeleri
+
+```{r}
+#| results: asis
+render_projects(
+  projects,
+  status = "ongoing",
+  lang = "tr"
+)
+```
+
+:::
+:::
+
+::: {.projects-section .projects-soft}
+::: {.projects-shell}
+
+::: {.section-kicker}
+TAMAMLANAN
+:::
+
+## Önceki araştırma projeleri
+
+```{r}
+#| results: asis
+render_projects(
+  projects,
+  status = "completed",
+  lang = "tr"
+)
+```
+
+:::
+:::
+
+::: {.projects-cta}
+::: {.projects-shell .projects-cta-inner}
+
+::: {.projects-cta-copy}
+### Araştırma çıktılarıyla bağlantı
+
+Projelerden ve diğer araştırma programlarımdan üretilen akademik çıktıları Yayınlar sayfasında inceleyebilirsiniz.
+:::
+
+::: {.projects-cta-actions}
+[Yayınlar](publications.qmd){.home-button .home-button-light}
+[Araştırmalar](research.qmd){.home-button .home-button-outline-light}
+:::
+
+:::
+:::
+
+:::
