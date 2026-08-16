@@ -2,7 +2,7 @@
 page-layout: custom
 toc: false
 pagetitle: "Hakkımda | Dr. Hasan Sarıcı"
-description-meta: "Dr. Hasan Sarıcı’nın akademik geçmişi, araştırma alanları ve profesyonel deneyimi."
+description-meta: "Dr. Hasan Sarıcı’nın akademik geçmişi, araştırmacı kimliği, öğretim ve profesyonel deneyimi."
 ---
 
 ::: {.about-page}
@@ -14,20 +14,21 @@ description-meta: "Dr. Hasan Sarıcı’nın akademik geçmişi, araştırma ala
 HAKKIMDA
 :::
 
-# Psikolojik süreçleri farklı bağlamlarda anlamaya odaklanan bir araştırmacı ve psikolojik danışmanım.
+# Psikolojik danışmanlık kökenli, bağlam odaklı bir araştırmacıyım.
 
 ::: {.about-lead}
-Zonguldak Bülent Ecevit Üniversitesi Ereğli Eğitim Fakültesi Eğitim Bilimleri Bölümü, Rehberlik ve Psikolojik Danışmanlık Programı’nde araştırma görevlisi olarak çalışıyorum.
+Zonguldak Bülent Ecevit Üniversitesi Ereğli Eğitim Fakültesi, Eğitim Bilimleri Bölümü, Rehberlik ve Psikolojik Danışmanlık Programı'nda araştırma görevlisi olarak çalışıyorum.
 :::
 
 ::: {.about-intro}
-Araştırmalarım; iklim değişikliği ve ruh sağlığı, çevre yanlısı davranışlar, psikolojik mekanizmalar, siber zorbalık ve siber mağduriyet, yoksulluk duyarlı okul psikolojik danışmanlığı, travmaya duyarlı eğitim, bilişsel duygu düzenleme ve spor psikolojisi gibi birbirini tamamlayan alanlarda ilerliyor.
+Akademik çalışmalarımın ortak noktası, psikolojik süreçleri yalnızca bireysel özelliklerle değil, bu süreçlerin ortaya çıktığı sosyal, eğitsel, çevresel, kültürel ve performans bağlamlarıyla birlikte ele almak. Rehberlik ve psikolojik danışmanlık alanındaki eğitimim; yoksulluk ve okul bağlamlarından iklim değişikliği, dijital davranış ve spor psikolojisine uzanan araştırma programımın temelini oluşturuyor.
 
-Bu alanları birbirinden bağımsız konular olarak değil; bireyin psikolojik süreçleri ile içinde bulunduğu çevresel, sosyal, kültürel ve performans bağlamları arasındaki ilişkileri anlamaya yönelik daha geniş bir araştırma programının parçaları olarak ele alıyorum.
+Araştırma, öğretim ve uygulamayı birbirini besleyen alanlar olarak görüyorum. Bilimsel çalışmalarımda yöntemsel titizliği ve yeniden üretilebilirliği; psikolojik danışmanlık ve performans bağlamlarında ise bilimsel bilginin uygulanabilirliğini önemsiyorum.
 :::
 
 ::: {.about-links}
 [ORCID: 0000-0001-8017-2694](https://orcid.org/0000-0001-8017-2694){.about-link target="_blank"}
+[Araştırmalar](research.qmd){.about-link}
 [Yayınlar](publications.qmd){.about-link}
 [CV](cv.qmd){.about-link}
 :::
@@ -39,7 +40,7 @@ Bu alanları birbirinden bağımsız konular olarak değil; bireyin psikolojik s
 ::: {.about-shell}
 
 ::: {.section-kicker}
-AKADEMİK GEÇMİŞ
+AKADEMİK YOL
 :::
 
 ## Eğitim
@@ -86,10 +87,10 @@ Necmettin Erbakan Üniversitesi · Ahmet Keleşoğlu Eğitim Fakültesi
 ::: {.about-shell}
 
 ::: {.section-kicker}
-AKADEMİK DENEYİM
+AKADEMİK PROFİL
 :::
 
-## Araştırma, öğretim ve psikolojik danışmanlık ekseninde çalışan bir akademik profil
+## Araştırma, öğretim ve uygulamayı birlikte geliştirmek
 
 ::: {.about-three-grid}
 
@@ -107,15 +108,15 @@ Bülent Ecevit Üniversitesi · Araştırma Görevlisi
 :::
 
 ::: {.about-card}
-### Öğretim
+### Öğretim ve Psikolojik Danışmanlık
 
-Bireyle Psikolojik Danışma Uygulamaları, Kültüre Duyarlı Psikolojik Danışma, Okullarda Rehberlik, Spor Psikolojisi, Psikolojiye Giriş, Eğitim Psikolojisi, Mesleki Rehberlik ve Çocuk Psikolojisi başta olmak üzere lisans düzeyinde çeşitli dersler yürüttüm.
+Lisans düzeyindeki öğretim deneyimim; bireyle psikolojik danışma, kültüre duyarlı psikolojik danışma, okul rehberliği, eğitim psikolojisi ve spor psikolojisi gibi alanları kapsıyor. Psikolojik danışmanlık eğitimimi, araştırma sorularımın saha ve uygulama bağlamıyla bağını koruyan bir temel olarak kullanıyorum.
 :::
 
 ::: {.about-card}
-### Yöntemsel Yaklaşım
+### Araştırma Yöntemleri
 
-Nicel ve nitel araştırma yöntemlerini birlikte kullanıyorum. Çalışmalarımda R programlama, SPSS, vaka çalışması metodolojisi, sistematik derleme ve ileri istatistiksel analizlerden yararlanıyorum.
+Nicel, nitel ve kanıt sentezi yöntemleriyle çalışıyorum. Araştırmalarımda R tabanlı analiz süreçleri, çok değişkenli ve çok düzeyli modeller, vaka çalışması, sistematik derleme ve meta-analiz yaklaşımlarından yararlanıyorum.
 :::
 
 :::
@@ -129,14 +130,14 @@ Nicel ve nitel araştırma yöntemlerini birlikte kullanıyorum. Çalışmaları
 SPOR VE PSİKOLOJİK PERFORMANS
 :::
 
-## Akademik psikoloji bilgisini performans ortamlarıyla buluşturmak
+## Bilimsel psikoloji ile performans ortamları arasında bağ kurmak
 
 ::: {.about-split}
 
 ::: {.about-split-copy}
-Spor psikolojisi, akademik çalışmalarımın yanında uygulamalı olarak da yer aldığım alanlardan biridir. Türkiye Futbol Federasyonu tarafından düzenlenen psikolojik performans danışmanlığı eğitimlerinin üç seviyesini tamamladım ve UEFA Grassroots C antrenörlük lisansına sahibim.
+Spor psikolojisi, araştırma ve öğretimin yanında uygulamalı deneyime de sahip olduğum bir çalışma alanı. Türkiye Futbol Federasyonu tarafından düzenlenen psikolojik performans danışmanlığı eğitimlerinin üç seviyesini tamamladım ve UEFA Grassroots C antrenörlük lisansına sahibim.
 
-Amatör futbol takımlarında antrenörlük deneyimim bulunuyor. Bu deneyim, sporcu psikolojisi ve psikolojik performans çalışmalarımı doğrudan saha bağlamıyla ilişkilendirmeme olanak sağlıyor.
+Amatör futbol takımlarındaki antrenörlük deneyimim, sporcu psikolojisi ve psikolojik performans çalışmalarını yalnızca kuramsal değil, performans ortamlarının günlük dinamiklerini dikkate alarak değerlendirmeme katkı sağlıyor.
 :::
 
 ::: {.fact-panel}
@@ -151,6 +152,22 @@ Araştırma · Öğretim · Uygulama
 :::
 
 :::
+:::
+:::
+
+::: {.about-section .about-soft}
+::: {.about-shell}
+
+::: {.section-kicker}
+DAHA FAZLA
+:::
+
+## Araştırma programımı ve akademik çıktılarımı inceleyin
+
+Araştırma sorularım, yöntemsel yaklaşımım ve uluslararası araştırma ağlarım **Araştırmalar** sayfasında; yayımlanmış ve yayın sürecindeki çalışmalarım ise **Yayınlar** sayfasında yer alıyor.
+
+[Araştırmalar →](research.qmd) · [Yayınlar →](publications.qmd) · [Akademik CV →](cv.qmd)
+
 :::
 :::
 
