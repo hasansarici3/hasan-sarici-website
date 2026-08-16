@@ -1,4 +1,4 @@
-/* PROFESSIONAL POLISH V1 */
+/* PROFESSIONAL POLISH V2 */
 
 .hero-role {
   margin-bottom: 0.65rem;
@@ -36,6 +36,86 @@
   border-bottom-color: var(--hs-accent);
 }
 
+.featured-section {
+  border-top: 1px solid var(--hs-border);
+}
+
+.featured-publications-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.4rem;
+  margin-top: 3rem;
+}
+
+.featured-publication {
+  min-height: 290px;
+  padding: 1.7rem;
+  border: 1px solid var(--hs-border);
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-publication-meta {
+  margin-bottom: 1.1rem;
+  color: var(--hs-accent);
+  font-size: 0.76rem;
+  font-weight: 700;
+  line-height: 1.45;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.featured-publication h3 {
+  margin: 0 0 1rem;
+  font-size: 1.08rem;
+  line-height: 1.4;
+  letter-spacing: -0.015em;
+}
+
+.featured-publication-authors {
+  margin-bottom: 1rem;
+  color: var(--hs-muted);
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.featured-publication-link {
+  margin-top: auto;
+  padding-top: 1.2rem;
+}
+
+.featured-publication-link a,
+.featured-publications-all a {
+  color: var(--hs-ink);
+  font-weight: 650;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(32, 38, 45, 0.35);
+}
+
+.featured-publication-link a:hover,
+.featured-publications-all a:hover {
+  color: var(--hs-accent);
+  border-bottom-color: var(--hs-accent);
+}
+
+.featured-publications-all {
+  margin-top: 2rem;
+  font-size: 0.94rem;
+}
+
+.projects-note {
+  max-width: 760px;
+  margin: -1.2rem 0 2.5rem;
+  color: var(--hs-muted);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.project-stats-three {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 @media (min-width: 1100px) {
   .focus-grid-four {
     grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -45,6 +125,10 @@
 
 @media (max-width: 1099px) and (min-width: 701px) {
   .focus-grid-four {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .featured-publications-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
@@ -58,7 +142,13 @@
     gap: 0.55rem 0.9rem;
   }
 
-  .focus-grid-four {
+  .focus-grid-four,
+  .featured-publications-grid,
+  .project-stats-three {
     grid-template-columns: 1fr;
+  }
+
+  .featured-publication {
+    min-height: auto;
   }
 }
