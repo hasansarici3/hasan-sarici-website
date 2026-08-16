@@ -18,6 +18,8 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      BABELQUARTO_CI_URL: "https://hasansarici3.github.io/hasan-sarici-website/"
 
     steps:
       - name: Checkout repository
