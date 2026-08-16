@@ -34,11 +34,13 @@ jobs:
           r-version: "release"
           use-public-rspm: true
 
-      - name: Install R packages
-        shell: Rscript {0}
-        run: |
-          install.packages(c("quarto", "servr"))
-          install.packages("babelquarto", repos = c("https://ropensci.r-universe.dev", "https://cloud.r-project.org"))
+      - name: Install R dependencies
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::quarto
+            ropensci-review-tools/babelquarto
+          install-quarto: false
 
       - name: Build PDF CVs and website
         shell: Rscript {0}
