@@ -2,7 +2,7 @@
 page-layout: custom
 toc: false
 pagetitle: "Araştırmalar | Dr. Hasan Sarıcı"
-description-meta: "Dr. Hasan Sarıcı’nın araştırma programı, araştırma alanları ve bilimsel yaklaşımı."
+description-meta: "Dr. Hasan Sarıcı’nın araştırma programı, güncel araştırma soruları, yöntemsel yaklaşımı ve uluslararası araştırma ağları."
 ---
 
 ::: {.research-page}
@@ -14,14 +14,14 @@ description-meta: "Dr. Hasan Sarıcı’nın araştırma programı, araştırma 
 ARAŞTIRMALAR
 :::
 
-# Psikolojik süreçleri çevresel, sosyal, eğitsel ve performans bağlamları içinde inceliyorum.
+# Temel sorum, bağlam ile psikolojik süreçlerin iyi oluşu ve davranışı birlikte nasıl şekillendirdiğidir.
 
 ::: {.research-lead}
-Araştırma programım, bireysel psikolojik süreçlerin içinde bulundukları bağlamlarla nasıl etkileşime girdiğini anlamaya odaklanıyor.
+Araştırma programım; çevresel tehditler, sosyal ve eğitsel koşullar, dijital ortamlar ve performans bağlamlarında psikolojik süreçlerin nasıl ortaya çıktığını ve hangi mekanizmalar üzerinden sonuçlarla ilişkili olduğunu inceliyor.
 :::
 
 ::: {.research-intro}
-Çalışmalarım iklim değişikliği ve ruh sağlığı, çevre yanlısı davranışlar, psikolojik danışmanlık ve eğitim, dijital davranışlar, duygu düzenleme ve spor psikolojisi gibi alanları kapsıyor. Bu konuları birbirinden kopuk araştırma başlıkları olarak değil, psikolojik süreçlerin farklı yaşam bağlamlarında nasıl biçimlendiğini açıklamaya yönelik bütünleşik bir araştırma programının parçaları olarak ele alıyorum.
+Bu çerçeve, iklim kaygısından yoksulluk duyarlı okul psikolojik danışmanlığına; siber zorbalıktan sporcu psikolojisine uzanan farklı araştırma başlıklarını ortak bir eksende bir araya getiriyor. Özellikle psikolojik mekanizmalar, bağlamsal farklılıklar, kültürlerarası karşılaştırmalar ve müdahale edilebilir süreçler üzerinde duruyorum.
 :::
 
 :::
@@ -45,15 +45,15 @@ ARAŞTIRMA PROGRAMI
 
 ### İklim ve Çevre Psikolojisi
 
-İklim değişikliğinin psikolojik sonuçları, iklim kaygısı, çevresel tehditlerin ruh sağlığıyla ilişkisi ve çevre yanlısı davranışların psikolojik belirleyicileri bu araştırma hattının merkezinde yer alıyor.
+İklim değişikliğinin psikolojik sonuçlarını ve çevresel davranışların nasıl oluştuğunu; duygu, biliş, sosyal norm ve bağlam düzeylerini birlikte dikkate alarak inceliyorum.
 
 **Başlıca temalar**
 
 - İklim kaygısı ve iklim duyguları
 - İklim değişikliği ve ruh sağlığı
-- Çevre yanlısı davranışlar
+- Çevre yanlısı davranışlar ve politika desteği
 - Psikolojik mekanizmalar
-- Sosyal normlar ve çevresel davranış
+- Sosyal normlar ve kültürlerarası farklılıklar
 :::
 
 ::: {.research-program-card}
@@ -63,12 +63,12 @@ ARAŞTIRMA PROGRAMI
 
 ### Psikolojik Danışmanlık, Eğitim ve Psikososyal Bağlamlar
 
-Bu hat, psikolojik danışmanlık ve eğitim süreçlerinin yoksulluk, travma ve sosyal dezavantaj gibi bağlamsal koşullarla nasıl kesiştiğine odaklanıyor.
+Bu araştırma hattı, psikolojik danışmanlık ve eğitim süreçlerinin yoksulluk, travma, sosyal dezavantaj ve kapsayıcılık gibi yapısal ve bağlamsal koşullarla nasıl kesiştiğine odaklanıyor.
 
 **Başlıca temalar**
 
 - Yoksulluk duyarlı okul psikolojik danışmanlığı
-- Travmaya duyarlı eğitim
+- Travmaya duyarlı eğitim ve okul dayanıklılığı
 - Okul temelli psikososyal destek
 - Öğretmen mesleki gelişimi
 - Kapsayıcı eğitim ve okul bağlamları
@@ -81,7 +81,7 @@ Bu hat, psikolojik danışmanlık ve eğitim süreçlerinin yoksulluk, travma ve
 
 ### Dijital Davranış ve Duygu Düzenleme
 
-Dijital ortamlardaki davranışların psikolojik ve kişilerarası süreçlerle ilişkisini; aynı zamanda bireylerin duygu düzenleme örüntülerinin işlevsel ve işlevsiz sonuçlarını inceliyorum.
+Dijital ortamlardaki davranışları empati, dayanıklılık, öz düzenleme ve kişilerarası süreçlerle birlikte ele alıyor; duygu düzenleme örüntülerinin işlevsel ve işlevsiz sonuçlarını inceliyorum.
 
 **Başlıca temalar**
 
@@ -89,7 +89,7 @@ Dijital ortamlardaki davranışların psikolojik ve kişilerarası süreçlerle 
 - Dijital vatandaşlık
 - Empati ve psikolojik dayanıklılık
 - Bilişsel duygu düzenleme
-- Uyumsal ve uyumsuz psikolojik süreçler
+- Aracılık ve psikolojik mekanizma modelleri
 :::
 
 ::: {.research-program-card}
@@ -99,14 +99,14 @@ Dijital ortamlardaki davranışların psikolojik ve kişilerarası süreçlerle 
 
 ### Spor ve Performans Psikolojisi
 
-Sporcuların psikolojik işlevselliği, psikolojik performansı ve müdahale temelli yaklaşımlar bu araştırma hattını oluşturuyor. Akademik çalışmaları saha deneyimiyle ilişkilendirmeyi önemsiyorum.
+Sporcularda psikolojik işlevsellik, sıkıntı ve performans süreçlerini; özellikle müdahale temelli ve kanıt sentezi yaklaşımlarıyla inceliyorum. Bu hattı futbol ortamındaki uygulamalı deneyimimle ilişkilendiriyorum.
 
 **Başlıca temalar**
 
-- Sporcu psikolojisi
-- Psikolojik performans
+- Sporcu psikolojisi ve psikolojik performans
 - Mindfulness temelli müdahaleler
 - Psikolojik işlevsellik ve psikolojik sıkıntı
+- Müdahale etkililiği
 - Futbol ortamında psikolojik süreçler
 :::
 
@@ -118,35 +118,35 @@ Sporcuların psikolojik işlevselliği, psikolojik performansı ve müdahale tem
 ::: {.research-shell}
 
 ::: {.section-kicker}
-YÖNTEMSEL YAKLAŞIM
+GÜNCEL ANALİTİK YÖNELİM
 :::
 
-## Araştırma sorusuna göre yöntem seçmek
+## Mekanizmaları, heterojenliği ve bağlamı görünür kılmak
 
 ::: {.research-method-grid}
 
 ::: {.research-method-item}
-### Nicel Araştırma
+### Mekanizma Odaklı Modeller
 
-Çok değişkenli modeller, aracılık ve düzenleyicilik analizleri, psikometrik değerlendirmeler ve çok düzeyli yaklaşımlar.
+Aracılık, düzenleyicilik ve çok değişkenli modeller aracılığıyla yalnızca değişkenlerin ilişkili olup olmadığını değil, bu ilişkilerin hangi psikolojik süreçler üzerinden ortaya çıktığını incelemek.
 :::
 
 ::: {.research-method-item}
-### Nitel Araştırma
+### Kültürlerarası ve Çok Düzeyli Analiz
 
-Özellikle bağlamsal ve deneyimsel süreçleri anlamaya yönelik vaka çalışması ve nitel analiz yaklaşımları.
+Ülkeler ve gruplar arası farklılıkları, bireysel süreçlerle bağlamsal göstergeleri aynı analitik çerçevede değerlendiren karşılaştırmalı ve çok düzeyli yaklaşımlar kullanmak.
+:::
+
+::: {.research-method-item}
+### Kişi Merkezli ve Ağ Yaklaşımları
+
+Ortalama eğilimlerin ötesine geçerek psikolojik örüntülerdeki heterojenliği; kişi merkezli sınıflandırmalar ve ağ temelli modellerle incelemek.
 :::
 
 ::: {.research-method-item}
 ### Kanıt Sentezi
 
-Sistematik derleme, meta-analiz ve kanıt haritalama yöntemleriyle dağınık bulguların bütünleştirilmesi.
-:::
-
-::: {.research-method-item}
-### Yeniden Üretilebilir Araştırma
-
-R tabanlı analiz süreçleri, açık bilim uygulamaları ve analiz kararlarının mümkün olduğunca şeffaf biçimde raporlanması.
+Sistematik derleme, meta-analiz ve kanıt haritalama yoluyla dağınık literatürü bütünleştirmek ve mevcut kanıtın sınırlarını açık biçimde tanımlamak.
 :::
 
 :::
@@ -154,6 +154,45 @@ R tabanlı analiz süreçleri, açık bilim uygulamaları ve analiz kararların�
 :::
 
 ::: {.research-section}
+::: {.research-shell}
+
+::: {.section-kicker}
+YÖNTEMSEL İLKELER
+:::
+
+## Araştırma sorusuna uygun yöntem, şeffaf analiz süreci
+
+::: {.research-method-grid}
+
+::: {.research-method-item}
+### Nicel Araştırma
+
+Çok değişkenli modeller, psikometrik değerlendirmeler, çok düzeyli analizler ve ileri istatistiksel yaklaşımlar.
+:::
+
+::: {.research-method-item}
+### Nitel ve Karma Yöntem
+
+Bağlamsal ve deneyimsel süreçleri anlamaya yönelik vaka çalışması, nitel analiz ve gerektiğinde karma yöntem tasarımları.
+:::
+
+::: {.research-method-item}
+### R Tabanlı Araştırma Akışları
+
+Veri işleme, istatistiksel modelleme ve görselleştirmede R tabanlı, mümkün olduğunca yeniden üretilebilir analiz süreçleri.
+:::
+
+::: {.research-method-item}
+### Açık Bilim
+
+Analiz kararlarının, kodun ve araştırma çıktılarının uygun olduğunda izlenebilir ve doğrulanabilir biçimde paylaşılması.
+:::
+
+:::
+:::
+:::
+
+::: {.research-section .research-soft}
 ::: {.research-shell}
 
 ::: {.section-kicker}
@@ -202,7 +241,7 @@ WG4 · Knowledge Dissemination and Capacity Building
 ::: {.research-cta-copy}
 ### Araştırma çıktıları
 
-Yayımlanmış çalışmalarımı, değerlendirme sürecindeki araştırmaları ve devam eden projeleri ilgili sayfalarda inceleyebilirsiniz.
+Yayımlanmış çalışmalarımı ve güncel yayın hattındaki araştırmaları **Yayınlar**, araştırma projelerimi ise **Projeler** sayfasında inceleyebilirsiniz.
 :::
 
 ::: {.research-cta-actions}
