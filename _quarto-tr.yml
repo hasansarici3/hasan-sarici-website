@@ -11,6 +11,8 @@ website:
         href: publications.qmd
       - text: "Projeler"
         href: projects.qmd
+      - text: "Seminerler / Konferanslar"
+        href: seminars.qmd
       - text: "CV"
         href: cv.qmd
       - text: "İletişim"
