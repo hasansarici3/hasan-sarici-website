@@ -2,7 +2,7 @@
 page-layout: custom
 toc: false
 pagetitle: "About | Dr. Hasan Sarıcı"
-description-meta: "Academic background, research interests, and professional experience of Dr. Hasan Sarıcı."
+description-meta: "Academic background, research identity, teaching, and professional experience of Dr. Hasan Sarıcı."
 ---
 
 ::: {.about-page}
@@ -14,20 +14,21 @@ description-meta: "Academic background, research interests, and professional exp
 ABOUT
 :::
 
-# I am a researcher and psychological counsellor interested in understanding psychological processes across different contexts.
+# I am a context-oriented researcher with a background in psychological counselling.
 
 ::: {.about-lead}
-I am a Research Assistant in the Department of Educational Sciences, Guidance and Psychological Counseling Program at the Ereğli Faculty of Education, Zonguldak Bülent Ecevit University.
+I am a Research Assistant in the Guidance and Psychological Counseling Program, Department of Educational Sciences, Ereğli Faculty of Education, Zonguldak Bülent Ecevit University.
 :::
 
 ::: {.about-intro}
-My research spans climate change and mental health, pro-environmental behaviour, psychological mechanisms, cyberbullying and cybervictimisation, poverty-sensitive school counselling, trauma-informed education, cognitive emotion regulation, and sport psychology.
+A common thread across my academic work is the study of psychological processes together with the social, educational, environmental, cultural, and performance contexts in which they unfold. My training in guidance and psychological counselling provides the foundation for a research programme extending from poverty and school contexts to climate change, digital behaviour, and sport psychology.
 
-I approach these areas as interconnected components of a broader research programme concerned with how psychological processes interact with environmental, social, cultural, educational, and performance contexts.
+I view research, teaching, and practice as mutually reinforcing domains. In my scientific work, I prioritise methodological rigour and reproducibility; in counselling and performance settings, I place equal value on the practical relevance of psychological knowledge.
 :::
 
 ::: {.about-links}
 [ORCID: 0000-0001-8017-2694](https://orcid.org/0000-0001-8017-2694){.about-link target="_blank"}
+[Research](research.qmd){.about-link}
 [Publications](publications.qmd){.about-link}
 [CV](cv.qmd){.about-link}
 :::
@@ -39,7 +40,7 @@ I approach these areas as interconnected components of a broader research progra
 ::: {.about-shell}
 
 ::: {.section-kicker}
-ACADEMIC BACKGROUND
+ACADEMIC PATH
 :::
 
 ## Education
@@ -86,10 +87,10 @@ Necmettin Erbakan University · Ahmet Keleşoğlu Faculty of Education
 ::: {.about-shell}
 
 ::: {.section-kicker}
-ACADEMIC EXPERIENCE
+ACADEMIC PROFILE
 :::
 
-## A profile integrating research, teaching, and psychological counselling
+## Developing research, teaching, and practice together
 
 ::: {.about-three-grid}
 
@@ -107,15 +108,15 @@ Bülent Ecevit University · Research Assistant
 :::
 
 ::: {.about-card}
-### Teaching
+### Teaching & Counselling
 
-I have taught undergraduate courses including Counseling Practice with Individuals, Culturally Responsive Counseling, Guidance in Schools, Sport Psychology, Introduction to Psychology, Educational Psychology, Vocational Guidance, and Child Psychology.
+My undergraduate teaching experience includes individual counselling practice, culturally responsive counselling, school guidance, educational psychology, and sport psychology. I use my counselling background as a foundation that keeps my research questions connected to applied and real-world contexts.
 :::
 
 ::: {.about-card}
-### Methodological Approach
+### Research Methods
 
-I work across quantitative and qualitative research traditions, using R, SPSS, case study methodology, systematic review methods, and advanced statistical approaches.
+I work across quantitative, qualitative, and evidence-synthesis traditions. My research uses R-based analytical workflows, multivariable and multilevel models, case study methodology, systematic review, and meta-analysis.
 :::
 
 :::
@@ -134,9 +135,9 @@ SPORT & PSYCHOLOGICAL PERFORMANCE
 ::: {.about-split}
 
 ::: {.about-split-copy}
-Sport psychology is both an academic and applied part of my professional work. I have completed all three levels of the Turkish Football Federation’s Psychological Performance Consulting training and hold a UEFA Grassroots C coaching licence.
+Sport psychology is an area in which I combine research and teaching with applied experience. I have completed all three levels of the Turkish Football Federation’s Psychological Performance Consulting training and hold a UEFA Grassroots C coaching licence.
 
-I also have coaching experience in amateur football. This provides a direct link between my academic work on sport psychology and the practical realities of performance environments.
+My coaching experience in amateur football helps me approach athlete psychology and psychological performance with attention not only to theory, but also to the day-to-day realities of performance environments.
 :::
 
 ::: {.fact-panel}
@@ -151,6 +152,22 @@ Research · Teaching · Practice
 :::
 
 :::
+:::
+:::
+
+::: {.about-section .about-soft}
+::: {.about-shell}
+
+::: {.section-kicker}
+EXPLORE FURTHER
+:::
+
+## Explore my research programme and academic outputs
+
+My research questions, methodological approach, and international research networks are presented on the **Research** page; published work and manuscripts in the publication pipeline are available on the **Publications** page.
+
+[Research →](research.qmd) · [Publications →](publications.qmd) · [Academic CV →](cv.qmd)
+
 :::
 :::
 
