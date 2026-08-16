@@ -2,7 +2,7 @@
 page-layout: custom
 toc: false
 pagetitle: "Contact | Dr. Hasan Sarıcı"
-description-meta: "Contact information for academic correspondence, research collaboration, and professional communication with Dr. Hasan Sarıcı."
+description-meta: "Contact information for academic collaboration, research projects, and scholarly communication with Dr. Hasan Sarıcı."
 execute:
   echo: false
   warning: false
@@ -29,10 +29,14 @@ profile <- profile[1, ]
 CONTACT
 :::
 
-# Get in touch
+# Academic collaboration and research communication
 
 ::: {.contact-lead}
-For academic collaboration, research projects, scholarly communication, and professional enquiries, you can contact me directly.
+For collaborative research and project development, methodological collaboration, scholarly communication, and academic enquiries, email is the best way to reach me.
+:::
+
+::: {.contact-hero-action}
+[Send an email →](mailto:`r profile$email`){.home-button .home-button-primary}
 :::
 
 :::
@@ -45,7 +49,7 @@ For academic collaboration, research projects, scholarly communication, and prof
 
 ::: {.contact-primary}
 
-## Contact details
+## Direct contact and academic profiles
 
 ::: {.contact-item}
 ::: {.contact-label}
@@ -62,9 +66,19 @@ Preferred channel for academic and professional correspondence.
 ORCID
 :::
 
-### [`r profile$orcid`](https://orcid.org/`r profile$orcid`){target="_blank"}
+### [`r profile$orcid`](https://orcid.org/`r profile$orcid`){target="_blank" rel="noopener"}
 
-Researcher identifier and academic record.
+Persistent researcher identifier and academic record.
+:::
+
+::: {.contact-item}
+::: {.contact-label}
+GITHUB
+:::
+
+### [github.com/hasansarici3](https://github.com/hasansarici3){target="_blank" rel="noopener"}
+
+Code and repository work related to open and reproducible research workflows.
 :::
 
 :::
@@ -76,21 +90,25 @@ Researcher identifier and academic record.
 AFFILIATION
 :::
 
-### `r profile$institution_en`
+### `r profile$program_en`
 
-`r profile$faculty_en`  
 `r profile$department_en`  
-`r profile$program_en`
+`r profile$faculty_en`  
+`r profile$institution_en`
 
 **`r profile$position_en`**
+
+[University academic staff record ↗](https://egitim.beun.edu.tr/egitim-bilimleri-bolumu/akademik-kadro.html){target="_blank" rel="noopener"}
 :::
 
-::: {.contact-card}
+::: {.contact-card .contact-collaboration-card}
 ::: {.contact-label}
-RESEARCH
+COLLABORATION AREAS
 :::
 
-Climate and environmental psychology, psychological counselling and education, digital behaviour and emotion regulation, and sport and performance psychology.
+Climate and environmental psychology; psychological counselling and education; digital behaviour and emotion regulation; and sport and performance psychology.
+
+Methodologically, I am particularly interested in systematic review and meta-analysis, cross-cultural and multilevel analysis, and R-based reproducible research workflows.
 
 [Explore my research programme →](research.qmd)
 :::
@@ -108,7 +126,7 @@ Climate and environmental psychology, psychological counselling and education, d
 :::
 ### Academic work
 
-Explore current research outputs, projects, and my academic curriculum vitae.
+Published work, the current publication pipeline, research projects, and my detailed academic CV are available across the site.
 :::
 
 ::: {.contact-cta-links}
