@@ -37,7 +37,9 @@ ACADEMIC CURRICULUM VITAE
 
 ::: {.cv-contact-row}
 [Email](mailto:`r profile$email`){.cv-contact-link}
-[ORCID](https://orcid.org/`r profile$orcid`){.cv-contact-link target="_blank"}
+[ORCID](https://orcid.org/`r profile$orcid`){.cv-contact-link target="_blank" rel="noopener"}
+[GitHub](https://github.com/hasansarici3){.cv-contact-link target="_blank" rel="noopener"}
+[Institutional Profile](https://egitim.beun.edu.tr/egitim-bilimleri-bolumu/akademik-kadro.html){.cv-contact-link target="_blank" rel="noopener"}
 [Publications](publications.qmd){.cv-contact-link}
 [Research](research.qmd){.cv-contact-link}
 [PDF CV - English](assets/documents/Hasan_Sarici_Academic_CV_EN.pdf){.cv-contact-link target="_blank"}
