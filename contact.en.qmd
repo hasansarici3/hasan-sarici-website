@@ -123,7 +123,7 @@ Methodologically, I am particularly interested in systematic review and meta-ana
 ::: {.contact-cta}
 ::: {.contact-shell .contact-cta-inner}
 
-:::
+::: {.contact-cta-copy}
 ### Academic work
 
 Published work, the current publication pipeline, research projects, and my detailed academic CV are available across the site.
