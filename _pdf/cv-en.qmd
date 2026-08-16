@@ -86,7 +86,7 @@ pdf_teaching(cv$teaching, "en")
 pdf_publications(cv$publications, "peer_reviewed", "en")
 ```
 
-## Manuscripts Under Review
+## Manuscripts in the Publication Pipeline
 
 ```{r}
 #| results: asis
