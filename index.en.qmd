@@ -21,12 +21,22 @@ PSYCHOLOGY · RESEARCH · PRACTICE
 **Researcher · Psychological Counsellor · Academic**
 :::
 
+::: {.hero-affiliation}
+**Guidance and Psychological Counseling Program** · Department of Educational Sciences · Ereğli Faculty of Education · Zonguldak Bülent Ecevit University
+:::
+
 ::: {.hero-lead}
 I study psychological processes in relation to the environmental, cultural, and sporting contexts in which they unfold.
 :::
 
 ::: {.hero-copy}
 My work focuses on climate anxiety, psychological mechanisms, pro-environmental outcomes, cross-cultural psychology, and sport and football psychology. Across these areas, I prioritise methodological rigour, open and reproducible science, and research with meaningful practical implications.
+:::
+
+::: {.hero-profile-links}
+[ORCID ↗](https://orcid.org/0000-0001-8017-2694)
+[GitHub ↗](https://github.com/hasansarici3)
+[Email](mailto:hasansarici3@gmail.com)
 :::
 
 ::: {.hero-actions}
