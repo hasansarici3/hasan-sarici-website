@@ -19,7 +19,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      BABELQUARTO_CI_URL: "https://hasansarici3.github.io/hasan-sarici-website/"
+      BABELQUARTO_CI_URL: "https://hasansarici.com/"
 
     steps:
       - name: Checkout repository
