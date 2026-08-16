@@ -2,7 +2,7 @@
 page-layout: custom
 toc: false
 pagetitle: "Projeler | Dr. Hasan Sarıcı"
-description-meta: "Dr. Hasan Sarıcı’nın devam eden ve tamamlanan araştırma projeleri."
+description-meta: "Dr. Hasan Sarıcı’nın araştırma projeleri ve desteklenen akademik çalışmaları."
 execute:
   echo: false
   warning: false
@@ -31,18 +31,12 @@ PROJELER
 Araştırma projelerim; psikososyal süreçleri, eğitim ortamlarını ve psikolojik işlevselliği gerçek yaşam bağlamları içerisinde anlamaya odaklanıyor.
 :::
 
-::: {.project-stats}
+::: {.project-stats .project-stats-three}
 
 ::: {.project-stat}
 `r project_stats$total`
 
 **Kayıtlı proje**
-:::
-
-::: {.project-stat}
-`r project_stats$ongoing`
-
-**Devam eden**
 :::
 
 ::: {.project-stat}
@@ -61,35 +55,18 @@ Araştırma projelerim; psikososyal süreçleri, eğitim ortamlarını ve psikol
 :::
 :::
 
-::: {.projects-section}
-::: {.projects-shell}
-
-::: {.section-kicker}
-DEVAM EDEN
-:::
-
-## Güncel araştırma projeleri
-
-```{r}
-#| results: asis
-render_projects(
-  projects,
-  status = "ongoing",
-  lang = "tr"
-)
-```
-
-:::
-:::
-
 ::: {.projects-section .projects-soft}
 ::: {.projects-shell}
 
 ::: {.section-kicker}
-TAMAMLANAN
+ARAŞTIRMA PROJELERİ
 :::
 
-## Önceki araştırma projeleri
+## Tamamlanan projeler
+
+::: {.projects-note}
+Bu sayfa, kurumsal veya dış destekli araştırma projelerini içerir. Yeni projeler başladığında aynı veri yapısı üzerinden otomatik olarak güncellenir.
+:::
 
 ```{r}
 #| results: asis
