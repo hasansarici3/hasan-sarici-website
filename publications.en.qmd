@@ -2,7 +2,7 @@
 page-layout: custom
 toc: false
 pagetitle: "Publications | Dr. Hasan Sarıcı"
-description-meta: "Peer-reviewed publications, manuscripts under review, and book contributions by Dr. Hasan Sarıcı."
+description-meta: "Peer-reviewed publications, manuscripts in the publication pipeline, and book contributions by Dr. Hasan Sarıcı."
 execute:
   echo: false
   warning: false
@@ -28,7 +28,7 @@ PUBLICATIONS
 # Research outputs
 
 ::: {.publications-lead}
-Peer-reviewed articles, manuscripts under review, and book contributions are generated from a single sustainable research database.
+Peer-reviewed articles, manuscripts in the publication pipeline, and book contributions are generated from a single sustainable research database.
 :::
 
 ::: {.publication-stats}
@@ -42,7 +42,7 @@ Peer-reviewed articles, manuscripts under review, and book contributions are gen
 ::: {.publication-stat}
 `r pub_counts$under_review`
 
-**Under review**
+**Publication pipeline**
 :::
 
 ::: {.publication-stat}
@@ -85,13 +85,13 @@ render_publications(
 ::: {.publications-shell}
 
 ::: {.section-kicker}
-ONGOING PUBLICATION PIPELINE
+CURRENT PUBLICATION PIPELINE
 :::
 
-## Manuscripts under review
+## Submitted, in-review, or revising manuscripts
 
 ::: {.publications-note}
-This section reflects the current status of manuscripts in the peer-review process. Records are updated directly in the database whenever their editorial status changes.
+This section reports unpublished manuscripts conservatively. “Submitted / in editorial process,” “in peer review,” and “revision / preparing resubmission” are shown as distinct statuses and are updated in the underlying database as editorial circumstances change.
 :::
 
 ```{r}
