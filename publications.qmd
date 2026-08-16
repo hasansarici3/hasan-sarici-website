@@ -2,7 +2,7 @@
 page-layout: custom
 toc: false
 pagetitle: "Yayınlar | Dr. Hasan Sarıcı"
-description-meta: "Dr. Hasan Sarıcı’nın hakemli yayınları, değerlendirme sürecindeki çalışmaları ve kitap bölümleri."
+description-meta: "Dr. Hasan Sarıcı’nın hakemli yayınları, yayın sürecindeki çalışmaları ve kitap bölümleri."
 execute:
   echo: false
   warning: false
@@ -28,7 +28,7 @@ YAYINLAR
 # Araştırma çıktıları
 
 ::: {.publications-lead}
-Hakemli makaleler, değerlendirme sürecindeki çalışmalar ve kitap/kitap bölümleri tek bir sürdürülebilir araştırma veri tabanından üretilmektedir.
+Hakemli makaleler, yayın sürecindeki çalışmalar ve kitap/kitap bölümleri tek bir sürdürülebilir araştırma veri tabanından üretilmektedir.
 :::
 
 ::: {.publication-stats}
@@ -42,7 +42,7 @@ Hakemli makaleler, değerlendirme sürecindeki çalışmalar ve kitap/kitap böl
 ::: {.publication-stat}
 `r pub_counts$under_review`
 
-**Değerlendirmede**
+**Yayın sürecinde**
 :::
 
 ::: {.publication-stat}
@@ -85,13 +85,13 @@ render_publications(
 ::: {.publications-shell}
 
 ::: {.section-kicker}
-DEVAM EDEN YAYIN SÜRECİ
+GÜNCEL YAYIN HATTI
 :::
 
-## Değerlendirme sürecindeki çalışmalar
+## Gönderilmiş, değerlendirmede veya revizyondaki çalışmalar
 
 ::: {.publications-note}
-Bu bölüm yalnızca bilimsel değerlendirme sürecindeki çalışmaların güncel durumunu gösterir. Dergi kararı veya yayın durumu değiştiğinde kayıt doğrudan veri tabanında güncellenir.
+Bu bölüm, yayımlanmamış çalışmaların güncel editoryal durumunu ihtiyatlı biçimde gösterir. “Gönderildi / editoryal süreçte”, “hakem değerlendirmesinde” ve “revizyon / yeniden gönderim hazırlığı” etiketleri birbirinden ayrı tutulur; durum değiştiğinde kayıt veri tabanında güncellenir.
 :::
 
 ```{r}
