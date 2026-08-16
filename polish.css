@@ -1,4 +1,4 @@
-/* PROFESSIONAL POLISH V3 */
+/* PROFESSIONAL POLISH V4 */
 
 .hero-role {
   margin-bottom: 0.65rem;
@@ -124,8 +124,11 @@
   background: #ffffff;
 }
 
-.cv-contact-row {
-  row-gap: 0.85rem;
+.cv-contact-row > p {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem 1.15rem;
+  margin: 0;
 }
 
 .cv-contact-link:hover,
@@ -170,8 +173,8 @@
     min-height: auto;
   }
 
-  .cv-contact-row {
-    gap: 0.75rem 1rem;
+  .cv-contact-row > p {
+    gap: 0.65rem 0.9rem;
   }
 
   .cv-contact-link {
