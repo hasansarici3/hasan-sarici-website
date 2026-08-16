@@ -37,7 +37,9 @@ AKADEMİK ÖZGEÇMİŞ
 
 ::: {.cv-contact-row}
 [E-posta](mailto:`r profile$email`){.cv-contact-link}
-[ORCID](https://orcid.org/`r profile$orcid`){.cv-contact-link target="_blank"}
+[ORCID](https://orcid.org/`r profile$orcid`){.cv-contact-link target="_blank" rel="noopener"}
+[GitHub](https://github.com/hasansarici3){.cv-contact-link target="_blank" rel="noopener"}
+[Kurumsal Profil](https://egitim.beun.edu.tr/egitim-bilimleri-bolumu/akademik-kadro.html){.cv-contact-link target="_blank" rel="noopener"}
 [Yayınlar](publications.qmd){.cv-contact-link}
 [Araştırmalar](research.qmd){.cv-contact-link}
 [PDF CV - Türkçe](assets/documents/Hasan_Sarici_Akademik_CV_TR.pdf){.cv-contact-link target="_blank"}
