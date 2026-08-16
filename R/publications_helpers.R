@@ -31,7 +31,8 @@ render_publications <- function(x, category, lang = "tr") {
     d <- x[x$category == category, ]
   }
 
-  d <- d[order(-d$year, d$display_order), , drop = FALSE]
+  sort_year <- ifelse(is.na(d$year), -Inf, d$year)
+  d <- d[order(-sort_year, d$display_order), , drop = FALSE]
 
   if (nrow(d) == 0) return(invisible(NULL))
 
@@ -42,11 +43,14 @@ render_publications <- function(x, category, lang = "tr") {
     cat("::: {.publication-card}\n")
 
     cat("::: {.publication-card-top}\n")
-    cat("::: {.publication-year}\n")
-    cat(row$year, "\n")
-    cat(":::\n")
 
-    if (row$category == "peer_reviewed" && nzchar(row$scope)) {
+    if (!is.na(row$year)) {
+      cat("::: {.publication-year}\n")
+      cat(row$year, "\n")
+      cat(":::\n")
+    }
+
+    if (row$category == "peer_reviewed" && nzchar(clean_value(row$scope))) {
       scope_label <- if (lang == "tr") {
         if (row$scope == "international") "Uluslararası hakemli" else "Ulusal hakemli"
       } else {
@@ -100,14 +104,15 @@ render_publications <- function(x, category, lang = "tr") {
       doi <- clean_value(row$doi)
 
       if (nzchar(doi)) {
+        doi_label <- if (lang == "tr") "DOI'yi aç ↗" else "Open DOI ↗"
         cat("::: {.publication-links}\n")
-        cat("[DOI](https://doi.org/", doi, "){target=\"_blank\"}\n", sep = "")
+        cat("[", doi_label, "](https://doi.org/", doi, "){target=\"_blank\" rel=\"noopener\"}\n", sep = "")
         cat(":::\n\n")
       }
 
     } else if (row$category == "under_review") {
 
-      journal_prefix <- if (lang == "tr") "Gönderildiği dergi:" else "Submitted to:"
+      journal_prefix <- if (lang == "tr") "Değerlendirildiği dergi:" else "Under review at:"
 
       cat("::: {.publication-meta}\n")
       cat(journal_prefix, " *", venue, "*\n", sep = "")
@@ -133,6 +138,56 @@ render_publications <- function(x, category, lang = "tr") {
 
     cat(":::\n\n")
   }
+
+  invisible(NULL)
+}
+
+render_featured_publications <- function(x, lang = "tr", n = 3) {
+
+  d <- x[
+    x$category == "peer_reviewed" & x$status == "published",
+    ,
+    drop = FALSE
+  ]
+
+  sort_year <- ifelse(is.na(d$year), -Inf, d$year)
+  d <- d[order(-sort_year, d$display_order), , drop = FALSE]
+  d <- head(d, n)
+
+  if (nrow(d) == 0) return(invisible(NULL))
+
+  cat("::: {.featured-publications-grid}\n")
+
+  for (i in seq_len(nrow(d))) {
+    row <- d[i, ]
+
+    cat("::: {.featured-publication}\n")
+
+    cat("::: {.featured-publication-meta}\n")
+    cat(row$year, " · ", clean_value(row$venue), "\n", sep = "")
+    cat(":::\n\n")
+
+    cat("### ", clean_value(row$title), "\n\n", sep = "")
+
+    authors <- clean_value(row$authors)
+    if (nzchar(authors)) {
+      cat("::: {.featured-publication-authors}\n")
+      cat(authors, "\n")
+      cat(":::\n\n")
+    }
+
+    doi <- clean_value(row$doi)
+    if (nzchar(doi)) {
+      label <- if (lang == "tr") "DOI ↗" else "DOI ↗"
+      cat("::: {.featured-publication-link}\n")
+      cat("[", label, "](https://doi.org/", doi, "){target=\"_blank\" rel=\"noopener\"}\n", sep = "")
+      cat(":::\n")
+    }
+
+    cat(":::\n\n")
+  }
+
+  cat(":::\n")
 
   invisible(NULL)
 }
