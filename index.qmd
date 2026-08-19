@@ -16,11 +16,47 @@ source("R/publications_helpers.R")
 publications <- read_publications("data/publications.csv")
 ```
 
+<style>
+.hero-split {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(280px, 0.9fr);
+  gap: clamp(1.75rem, 3vw, 3.25rem);
+  align-items: center;
+}
+.hero-main { min-width: 0; }
+.hero-portrait-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-portrait {
+  display: block;
+  width: min(100%, 420px);
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 28px;
+  box-shadow: 0 26px 60px rgba(15, 23, 42, 0.16);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  background: #ffffff;
+}
+@media (max-width: 980px) {
+  .hero-split { grid-template-columns: 1fr; }
+  .hero-portrait-wrap { order: -1; margin-bottom: 0.5rem; }
+  .hero-portrait { width: min(100%, 320px); }
+}
+@media (max-width: 640px) {
+  .hero-portrait { width: min(100%, 280px); border-radius: 22px; }
+}
+</style>
+
 ::: {.home-page}
 
 ::: {.home-hero}
 ::: {.home-shell}
 
+::: {.hero-split}
+
+::: {.hero-main}
 ::: {.hero-eyebrow}
 PSİKOLOJİ · ARAŞTIRMA · UYGULAMA
 :::
@@ -53,6 +89,13 @@ PSİKOLOJİ · ARAŞTIRMA · UYGULAMA
 [Araştırmalarımı İncele](research.qmd){.home-button .home-button-primary}
 [Yayınlar](publications.qmd){.home-button}
 [CV](cv.qmd){.home-button .home-button-quiet}
+:::
+:::
+
+::: {.hero-portrait-wrap}
+![Dr. Hasan Sarıcı portresi](assets/images/hasan-home-portrait.svg){.hero-portrait}
+:::
+
 :::
 
 :::
@@ -185,4 +228,3 @@ Yayınlar, projeler ve araştırma alanlarına site üzerinden erişebilirsiniz.
 :::
 
 :::
-
