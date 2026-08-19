@@ -93,7 +93,7 @@ PSİKOLOJİ · ARAŞTIRMA · UYGULAMA
 :::
 
 ::: {.hero-portrait-wrap}
-![Dr. Hasan Sarıcı portresi](assets/images/hasan-home-portrait.svg){.hero-portrait}
+<img src="assets/images/hasan-home-portrait.svg" class="hero-portrait" alt="Dr. Hasan Sarıcı portresi">
 :::
 
 :::

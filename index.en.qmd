@@ -93,7 +93,7 @@ My work focuses on climate anxiety, psychological mechanisms, pro-environmental 
 :::
 
 ::: {.hero-portrait-wrap}
-![Portrait of Dr. Hasan Sarıcı](assets/images/hasan-home-portrait.svg){.hero-portrait}
+<img src="assets/images/hasan-home-portrait.svg" class="hero-portrait" alt="Portrait of Dr. Hasan Sarıcı">
 :::
 
 :::
