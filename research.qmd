@@ -241,7 +241,7 @@ WG4 · Knowledge Dissemination and Capacity Building
 ::: {.research-cta-copy}
 ### Araştırma çıktıları
 
-Yayımlanmış çalışmalarımı ve güncel yayın hattındaki araştırmaları **Yayınlar**, araştırma projelerimi ise **Projeler** sayfasında inceleyebilirsiniz.
+Yayımlanmış akademik çalışmalarımı **Yayınlar**, araştırma projelerimi ise **Projeler** sayfasında inceleyebilirsiniz.
 :::
 
 ::: {.research-cta-actions}
@@ -253,3 +253,4 @@ Yayımlanmış çalışmalarımı ve güncel yayın hattındaki araştırmaları
 :::
 
 :::
+

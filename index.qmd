@@ -119,7 +119,7 @@ SEÇİLİ YAYINLAR
 ## Son hakemli çalışmalar
 
 ::: {.section-intro}
-Güncel hakemli yayınlarımdan seçilmiş çalışmalar. Tüm yayın listesi ve değerlendirme sürecindeki araştırmalar için Yayınlar sayfasını inceleyebilirsiniz.
+Güncel hakemli yayınlarımdan seçilmiş çalışmalar. Tüm yayın listesi için Yayınlar sayfasını inceleyebilirsiniz.
 :::
 
 ```{r}
@@ -185,3 +185,4 @@ Yayınlar, projeler ve araştırma alanlarına site üzerinden erişebilirsiniz.
 :::
 
 :::
+

@@ -241,7 +241,7 @@ WG4 · Knowledge Dissemination and Capacity Building
 ::: {.research-cta-copy}
 ### Research outputs
 
-Explore my published work and current publication pipeline on the **Publications** page, and research projects on the **Projects** page.
+Explore my published academic work on the **Publications** page, and research projects on the **Projects** page.
 :::
 
 ::: {.research-cta-actions}
@@ -253,3 +253,4 @@ Explore my published work and current publication pipeline on the **Publications
 :::
 
 :::
+

@@ -119,7 +119,7 @@ SELECTED PUBLICATIONS
 ## Recent peer-reviewed work
 
 ::: {.section-intro}
-A selection of my recent peer-reviewed publications. Visit the Publications page for the complete publication record and manuscripts currently under review.
+A selection of my recent peer-reviewed publications. Visit the Publications page for the complete publication record.
 :::
 
 ```{r}
@@ -185,3 +185,4 @@ Browse publications, projects, and research areas across the website.
 :::
 
 :::
+
